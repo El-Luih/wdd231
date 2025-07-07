@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-        <img src="" alt="" id="site-logo" width="1" height="1">
-        <span id="page-name"></span>
+        <img src="images/logo.svg" alt="Our Logo" id="site-logo" width="1" height="1">
+        <span id="page-name">Luis Alejandro Maradiaga Ruiz</span>
         <nav class="navigation" id="nav-menu">
             <ul>
                 <li><a href="index.html" class="current">Home</a></li>
@@ -27,25 +27,41 @@
         <button id="nav-button" class="hamburger"></button>
     </header>
     <main>
-        <h1></h1>
+        <h1>Home</h1>
         <section>
-            <h2></h2>
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat laboriosam nam natus delectus,
+                assumenda veniam velit, maxime reprehenderit earum hic atque voluptatibus, quo optio consectetur
+                accusamus corporis fuga mollitia adipisci ut! Eveniet atque adipisci assumenda nemo distinctio 
+                praesentium ipsam quod deleniti, dignissimos, laborum voluptatem! Vero ducimus officiis in fugit 
+                totam of luptas ut enim ullam quaerat officiis maiores veritatis repudiandae fugiat quas architecto!
+            </p>
         </section>
         <section>
-            <h2></h2>
+            <h2>Student Photo</h2>
+            <img src="images/student.jpg" alt="A picture of myself.">
         </section>
         <section>
-            <h2></h2>
+            <h2>Web Certificate Courses</h2>
+            <div id="filtering-section">
+                <button class="filtering-button">All</button>
+                <button class="filtering-button">CSE</button>
+                <button class="filtering-button">WDD</button>
+            </div>
+            <div id="coursesDisplay">
+                <p>The total credits for course listed above is <span id="totalCredits"></span></p>
+            </div>
         </section>
     </main>
     <footer>
         <div id="social-media">
-            <a><img src="" alt=""></a>
-            <a><img src="" alt=""></a>
-            <a><img src="" alt=""></a>
-            <a><img src="" alt=""></a>
+            <a><img src="images/linkedin.svg" alt="Linkedin Icon"></a>
+            <a><img src="images/github.svg" alt="GitHub Icon"></a>
+            <a><img src="images/twitter-x.svg" alt="Twitter Icon"></a>
+            <a><img src="images/facebook.svg" alt="Facebook Icon"></a>
         </div>
-        <p>&copy;<span id="currentyear"></span> Luis Maradiaga. Peru.</p>
+        <p>&copy;<span id="currentYear"></span> Luis Maradiaga. Peru.</p>
         <p id="lastModified"></p>
     </footer>
 </body>
