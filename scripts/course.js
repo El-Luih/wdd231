@@ -79,25 +79,49 @@ const courses = [
 ]
 
 const coursesSection = document.querySelector("#coursesDisplay");
+const allFilter = document.querySelector("#allFilter");
+const cseFilter = document.querySelector("#cseFilter");
+const wddFilter = document.querySelector("#wddFilter");
+const creditCount = document.querySelector("#totalCredits");
+
+displayCourses(courses);
 
 function displayCourses(courses) {
     coursesSection.innerHTML = formatCourses(courses);
+    creditCount.textContent = courses.reduce((accumulator, course) =>
+        accumulator + course.credits,
+        0
+    );
 }
 
 function formatCourses(courses) {
-
     return courses.map((course) =>
         course.completed ? 
-            `<p class="course">
-            ${course.subject} 
-            ${course.number}
+            `<p class="completed">
+            ${course.subject} ${course.number}
             </p>`
-                : ""
+            : 
+            `<p>
+            ${course.subject} ${course.number}
+            </p>`
         ).join("");
 }
 
 function filterCourses(courses, subject) {
     return courses.filter(course =>
-        course.subject = subject
+        course.subject === subject
     );
 }
+
+allFilter.addEventListener("click", function () {
+    displayCourses(courses);
+}
+)
+cseFilter.addEventListener("click", function () {
+    displayCourses(filterCourses(courses, "CSE"));
+})
+wddFilter.addEventListener("click", function () {
+    displayCourses(filterCourses(courses, "WDD"));
+})
+
+
