@@ -1,0 +1,230 @@
+:root {
+    --primary-color: rgb(241, 212, 154);
+    --secondary-color: rgb(0, 0, 0);
+    --third-color: rgb(54,83,49);
+    --fourth-color: rgb(130, 185, 121);
+    --secondary-font: "Noto Serif", serif;
+    --primary-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6, #page-name {
+    font-family: var(--secondary-font);
+}
+
+/*Header*/
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: minmax(44px, 10vw) auto minmax(44px, 10vw);
+}
+
+#site-logo {
+    width: 100%;
+    height: auto;
+}
+
+#page-name {
+    display: grid;
+    place-items: center;
+    font-size: 6.5vw;
+}
+
+/*Nav Menu*/
+
+.navigation {
+    display: none;
+    padding: 0.2rem;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0.5vw var(--secondary-color) solid;
+}
+
+.navigation li {
+    margin: 0;
+    text-align: center;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-align: center;
+    max-width: 100%;
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 1.5vw 0;
+    border: 0.7vw var(--secondary-color) solid;
+    border-bottom: none;
+    background-color: var(--primary-color);
+}
+
+.navigation a.nav-link:hover {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+}
+
+.navigation li:last-child a {
+    border-bottom: 0.7vw var(--secondary-color) solid;
+}
+
+.navigation a.current {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.navigation.show {
+    display: block;
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/*Body*/
+main {
+    padding: 0.2rem;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    border: 0.2rem var(--secondary-color) solid;
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    padding: 1.2rem 0;
+    font-size: 2.5rem;
+}
+
+.text-section {
+    background-color: var(--third-color);
+    border: var(--secondary-color) 0.2rem solid;
+}
+
+section h2 {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 0.7rem 0.2rem;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.text-section p {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+#my-picture {
+    display: block;
+    margin: 1.5rem auto;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+#filtering-section {
+    margin: 0.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.2rem;
+}
+
+#filtering-section button {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    border: var(--secondary-color) thin solid;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+}
+
+#filtering-section button:hover {
+    background-color: var(--secondary-color);
+}
+
+#coursesDisplay {
+    margin: 0.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+#coursesDisplay p {
+    border: var(--secondary-color) 0.15rem solid;
+    border-radius: 0.4rem;
+    width: 95%;
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+
+#coursesDisplay p.completed {
+    background-color: var(--fourth-color);
+}
+
+
+#coursesDisplay p.completed::before {
+    content: "✅";
+}
+
+#credits-display {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#totalCredits {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    color: var(--third-color);
+}
+
+
+/*Footer*/
+footer {    
+    margin: 0 0.2rem;
+    border-top: 0.2rem var(--secondary-color) dotted;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--third-color);
+}
+
+footer img {
+    width: 44px;
+    height: auto;
+    margin: 0.5rem 1rem;
+}

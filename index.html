@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD-231 | My Page - Luis Maradiaga</title>
+    <meta name="author" content="Luis Alejandro Maradiaga Ruiz">
+    <meta name="description" content="A simple website with information about me to test my knowledge about web design">
+    <meta property="og:title" content="WDD-231 | My Page - Luis Maradiaga">
+    <meta property="og:description" content="A simple website with information about me to test my knowledge about web design">
+    <meta property="og:image" content="https://el-luih.github.io/wdd231/images/logo.svg">
+    <meta property="url" content="https://el-luih.github.io/wdd231">
+    <link href="images/favicon.ico" rel="icon">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Our Logo" id="site-logo" width="1" height="1">
+        <span id="page-name">Luis Maradiaga</span>
+        <nav class="navigation" id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="current nav-link">Home</a></li>
+                <li><a href="chamber/directory.html" class="nav-link">Chamber Project</a></li>
+                <li><a href="#" class="nav-link">Final Project</a></li>
+            </ul>
+        </nav>
+        <button id="nav-button" class="hamburger" aria-label="Menu Button"></button>
+    </header>
+    <main>
+        <h1 id="home-title">Home</h1>
+        <div id="section-grid">
+            <section class="text-section">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat laboriosam nam natus delectus,
+                    assumenda veniam velit, maxime reprehenderit earum hic atque voluptatibus, quo optio consectetur
+                    accusamus corporis fuga mollitia adipisci ut! Eveniet atque adipisci assumenda nemo distinctio 
+                    praesentium ipsam quod deleniti, dignissimos, laborum voluptatem! Vero ducimus officiis in fugit 
+                    totam of luptas ut enim ullam quaerat officiis maiores veritatis repudiandae fugiat quas architecto!
+                </p>
+            </section>
+            <section class="text-section">
+                <h2>Student Photo</h2>
+                <img src="images/student.jpg" alt="A picture of myself." id="my-picture">
+            </section>
+        </div>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div id="filtering-section">
+                <button id="allFilter">All</button>
+                <button id="cseFilter">CSE</button>
+                <button id="wddFilter">WDD</button>
+            </div>
+            <div id="coursesDisplay"></div>
+            <p id="credits-display">The total credits for course listed above is <span id="totalCredits"></span></p>
+        </section>
+    </main>
+    <footer>
+        <div id="social-media">
+            <a href="https://es.linkedin.com/"><img src="images/linkedin.svg" alt="Linkedin Icon"></a>
+            <a href="https://github.com/"><img src="images/github.svg" alt="GitHub Icon"></a>
+            <a href="https://x.com/?lang=es"><img src="images/twitter-x.svg" alt="Twitter Icon"></a>
+            <a href="https://www.facebook.com/?locale=es_LA"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+        </div>
+        <p>&copy;<span id="currentYear"></span> Luis Maradiaga. Peru.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

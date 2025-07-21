@@ -1,0 +1,33 @@
+#cards {
+    display: grid;
+    grid-template-columns: auto-fit;
+    margin: 0 auto;
+}
+
+.prophet-card {
+    background-color: var(--third-color);
+    border: var(--secondary-color) 0.2rem solid;
+    width: 90%;
+    margin: 0.2rem auto;
+}
+
+.prophet-card p {
+    margin: 2rem auto;
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 2.3rem;
+}
+
+.prophet-card img {
+    display: block;
+    margin: 0 auto 1.5rem;
+    border: var(--secondary-color) 0.2rem solid;
+}
+
+.prophet-card h2 {
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}

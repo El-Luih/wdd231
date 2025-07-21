@@ -1,0 +1,95 @@
+{
+    "companies": [
+        {
+            "name": "NovaTech Solutions",
+            "address": {
+                "street": "7a Avenida 5-23",
+                "zone": "Zona 10",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01010"
+            },
+            "phoneNumber": "+502 2298-4567",
+            "url": "https://novatech.gt",
+            "icon": "novatech.webp",
+            "level": 1
+        },
+        {
+            "name": "EcoFrescura S.A.",
+            "address": {
+                "street": "Calle Montúfar 12-17",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "phoneNumber": "+502 2234-9988",
+            "url": "https://ecofrescura.com",
+            "icon": "ecofrescura.webp",
+            "level": 2
+        },
+        {
+            "name": "DigitalHive Agency",
+            "address": {
+                "street": "Diagonal 6 10-45",
+                "zone": "Zona 14",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01014"
+            },
+            "phoneNumber": "+502 2376-0012",
+            "url": "https://digitalhive.gt",
+            "icon": "digitalhive.webp",
+            "level": 3
+        },
+        {
+            "name": "Café Quetzalito",
+            "address": {
+                "street": "3a Avenida 6-42",
+                "zone": "Zona 4",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01004"
+            },
+            "phoneNumber": "+502 2211-4532",
+            "url": "https://cafequetzalito.gt",
+            "icon": "cafequetzal.webp",
+            "level": 2
+        },
+        {
+            "name": "GuateLegal Advisors",
+            "address": {
+                "street": "5a Calle 8-21",
+                "zone": "Zona 9",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01009"
+            },
+            "phoneNumber": "+502 2267-8901",
+            "url": "https://guatelegal.gt",
+            "icon": "guatelegal.webp",
+            "level": 3
+        },
+        {
+            "name": "MetroFit Gym",
+            "address": {
+                "street": "Boulevard Los Próceres 15-30",
+                "zone": "Zona 10",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01010"
+            },
+            "phoneNumber": "+502 2290-2233",
+            "url": "https://metrofit.gt",
+            "icon": "metrofit.webp",
+            "level": 2
+        },
+        {
+            "name": "InnovaMed Clinic",
+            "address": {
+                "street": "Ruta 3, 9-61",
+                "zone": "Zona 2",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01002"
+            },
+            "phoneNumber": "+502 2300-1144",
+            "url": "https://innovamed.gt",
+            "icon": "innovamed.wepb",
+            "level": 2
+        }
+    ]
+}

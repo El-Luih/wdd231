@@ -1,0 +1,174 @@
+:root {
+    --primary-color: #f7f7f7;
+    --secondary-color: #4692c9;
+    --fading-secondary: #4692c97a;
+    --third-color: #417c25;
+    --accent-color-1: #f1e8a4;
+    --accent-color-2: #682e1d;
+    --main-font: "Montserrat", sans-serif;
+    --style-font: "Playfair Display", serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-family: var(--style-font);
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 0.5rem 0;
+}
+
+
+#site-logo {
+    height: 50px;
+    width: auto;
+    padding: 0.2rem 0;
+}
+
+#page-name {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-family: var(--style-font);
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    padding: 0 0.3rem;
+}
+
+#nav-button {
+    background: none;
+    border: none;
+}
+
+#nav-button:hover {
+    background-color: black;
+    color: var(--primary-color);
+}
+
+#nav-button::before {
+    content: "\2630";
+    font-size: 1.6rem;
+}
+
+#nav-button.show::before {
+    content: "\00D7";
+    font-size: 2.5rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    display: block;
+    text-align: start;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    background-color: var(--accent-color-1);
+    color: black;
+}
+
+.navigation a.current::after {
+    content: "←";
+    position: absolute;
+    right: 1.5rem;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+#nav-menu.show {
+    grid-column: span 3;
+    display: grid;
+    place-items: start;
+}
+
+/*Directory Hero*/
+.directory-hero {
+    position: relative;
+}
+
+.directory-hero article {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8% 0;
+    width: 100%;
+    background-color: var(--fading-secondary);
+}
+
+#directory-header {
+    margin-bottom: 5%;
+    color: var(--primary-color);
+}
+
+.sorting-button {
+    border: var(--secondary-color) 0.1rem solid;
+    padding: 8px 10px 5px;
+    margin: 0 0.5rem;
+    width: 40px;
+    height: auto;
+}
+
+.sorting-button:hover {
+    box-shadow: -2px -2px 5px 1.5px var(--fading-secondary) inset,
+    2px 2px 5px 1.5px var(--fading-secondary) inset;
+}
+
+#directory-image img{
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+}
+
+/*Directory Cards*/
+h3.company-name {
+    font-family: var(--main-font);
+}
+
+/*Footer*/
+footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem 0.5rem;
+    place-items: center;
+    text-align: center;
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+footer strong {
+    display: block;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    margin: 0 1rem;
+}
+
+

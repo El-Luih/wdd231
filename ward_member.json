@@ -1,0 +1,23 @@
+{
+    "family_name": "Thing",
+    "moving_date": "2022-2-22",
+    "members_number": 4,
+    "visited": false,
+    "members": [
+        {
+            "name": "Some",
+            "gender": "Hip-Hop",
+            "birthdate": "1969-4-20"
+        },
+        {
+            "name": "Any",
+            "gender": "Racing Game",
+            "birthdate": "2001-9-11"
+        },
+        {
+            "name": "Every",
+            "gender": "Suspense",
+            "birthdate": "TBD"
+        }
+    ]
+}
