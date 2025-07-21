@@ -164,6 +164,12 @@ h3.company-name {
 	grid-template-columns: 1fr;
 	grid-gap: 5px;
 	align-items: center;
+    p {
+        font-size: 1.3rem;
+    }
+    a {
+        font-size: 1.2rem;
+    }
     section {
         width: 90%;
         margin: 0 auto;
@@ -216,6 +222,26 @@ h3.company-name {
 
 #member-list.grid .company-name {
     display: none;
+}
+
+.bronze {
+    color: #8a5e32;
+    font-weight: 800;
+}
+
+.silver {
+    color: #8c9093;
+    font-weight: 800;
+}
+
+.gold {
+    color: rgb(211, 157, 19);
+    font-weight: 800;
+}
+
+.no-member {
+    color: black;
+    font-weight: 800;
 }
 
 /*Footer*/

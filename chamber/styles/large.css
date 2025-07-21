@@ -63,10 +63,9 @@
 
     #member-list.grid {
         grid-template-columns: 1fr 1fr 1fr;
-        img {
-
-        }
     }
+
+    
 
     /*Footer*/
     footer {
