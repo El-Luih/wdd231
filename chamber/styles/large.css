@@ -46,6 +46,28 @@
         text-underline-offset: 6px;
     }
 
+    /*Directory Hero*/
+    .directory-hero article {
+        padding: 8% 0;
+    }
+
+    #directory-header {
+        font-size: 2rem;
+    }
+
+    .sorting-button img {
+        width: 20px;
+    }
+
+    /*Directory Cards*/
+
+    #member-list.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        img {
+
+        }
+    }
+
     /*Footer*/
     footer {
         grid-template-columns: 1fr 1fr 1fr;

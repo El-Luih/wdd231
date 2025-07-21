@@ -115,12 +115,13 @@ header {
     text-align: center;
     height: 100%;
     box-sizing: border-box;
-    padding: 8% 0;
+    padding: 30% 0;
     width: 100%;
     background-color: var(--fading-secondary);
 }
 
 #directory-header {
+    font-size: 3rem;
     margin-bottom: 5%;
     color: var(--primary-color);
 }
@@ -129,6 +130,11 @@ header {
     border: var(--secondary-color) 0.1rem solid;
     padding: 8px 10px 5px;
     margin: 0 0.5rem;
+    height: auto;
+}
+
+.sorting-button img {
+    display: inline-block;
     width: 40px;
     height: auto;
 }
@@ -147,6 +153,69 @@ header {
 /*Directory Cards*/
 h3.company-name {
     font-family: var(--main-font);
+}
+
+#member-list {
+    margin: 2rem auto;
+}
+
+#member-list.grid {
+    display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+	align-items: center;
+    section {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+		text-align: center;
+		& > * {
+			margin: 0.5rem;
+		}
+	}
+	img {
+		border: 1px solid #fff;
+		box-shadow: 0 0 1rem #555;
+        width: 80%;
+        height: auto;
+	}
+}
+
+#member-list.list {
+	display: flex;
+	flex-direction: column;
+	section {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+		margin: 0;
+		padding: 0.5rem 0.25rem;
+
+		& > * {
+			margin: 0 1rem;
+		}
+
+		img {
+			display: none;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		&:nth-child(even) {
+			background-color: var(--fading-secondary);
+		}
+
+        a {
+            line-break: anywhere;
+        }
+
+	}
+}
+
+
+#member-list.grid .company-name {
+    display: none;
 }
 
 /*Footer*/
