@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #f7f7f7;
-    --secondary-color: #4692c9;
+    --primary-color: #ffffff;
+    --secondary-color: #1773b4;
     --fading-secondary: #4692c97a;
     --third-color: #417c25;
     --accent-color-1: #f1e8a4;
@@ -240,7 +240,7 @@ h3.company-name {
 }
 
 .gold {
-    color: rgb(211, 157, 19);
+    color: rgb(190, 139, 9);
     font-weight: 800;
 }
 
