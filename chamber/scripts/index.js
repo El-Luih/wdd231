@@ -18,4 +18,4 @@ wm.displayForecast(forecast, 'index-weather-next', 'c', 3);
 
 /*Businesses Call*/
 const businessUrl = "https://el-luih.github.io/wdd231/chamber/data/members.json";
-b.getBusinesses(businessUrl, "index-business-board", 3);
+b.getBusinesses(businessUrl, "index-business-board", 3, 2);

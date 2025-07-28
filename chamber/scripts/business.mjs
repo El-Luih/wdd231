@@ -4,12 +4,12 @@ const businessDataManager = {
     Arguments:
     - Businesses data URL.
     - The container element ID.
-    - The number of business cards.*/
-
-    async getBusinesses(directory, containerID, count = 1) {
+    - The number of business cards.
+    - Level value for filtering.*/
+    async getBusinesses(directory, containerID, count = 1, level = 1) {
         const retrieve = await fetch(directory);
         const members = await retrieve.json();
-        this.displayBusinesses(members.companies, containerID, count);
+        this.displayBusinesses(members.companies, containerID, count, level);
     },
 
     /*Counts the number of items in an array of businesses and returns an specified amount of random indexes
@@ -51,17 +51,21 @@ const businessDataManager = {
 
     /*Creates the HTML elements of each business card according to the format 
     given in the assignment and appends it to the specified container element.
+    The business array is filtered by membership level.
     Arguments:
     - An array of businesses.
     - The ID of the container element in HTML.
     - The number of business cards to display.
+    - Level value for filtering.
     */
-    displayBusinesses(businesses, containerID, outputCount = 1) {
+    displayBusinesses(businesses, containerID, outputCount = 1, level = 1) {
         const containerElement = document.querySelector(`#${containerID}`);
-        const indexes = this.randomizeBusinesses(businesses, outputCount)
+        const filteredBusinesses = businesses.filter((business) => business.level >= level);
+        console.log(filteredBusinesses);
+        const indexes = this.randomizeBusinesses(filteredBusinesses, outputCount)
 
         indexes.forEach(index => {
-            const business = businesses[index];
+            const business = filteredBusinesses[index];
 
             const businessArticle = document.createElement('article');
             const bArticleName = document.createElement('h2');
