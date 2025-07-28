@@ -52,6 +52,7 @@ const businessDataManager = {
     /*Creates the HTML elements of each business card according to the format 
     given in the assignment and appends it to the specified container element.
     The business array is filtered by membership level.
+    Logs the filtered array to facilitate the evaluation process (and because I was troubleshooting, forgot to delete it and realised it could help).
     Arguments:
     - An array of businesses.
     - The ID of the container element in HTML.
