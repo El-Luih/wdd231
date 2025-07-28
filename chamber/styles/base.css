@@ -3,7 +3,7 @@
     --secondary-color: #1773b4;
     --fading-secondary: #4692c97a;
     --third-color: #417c25;
-    --accent-color-1: #f1e8a4;
+    --accent-color-1: #dbd7ca9c;
     --accent-color-2: #682e1d;
     --main-font: "Montserrat", sans-serif;
     --style-font: "Playfair Display", serif;
@@ -104,129 +104,12 @@ header {
     place-items: start;
 }
 
-/*Directory Hero*/
-.directory-hero {
-    position: relative;
-}
+/*Shared Body Elements Styling*/
 
-.directory-hero article {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 30% 0;
-    width: 100%;
-    background-color: var(--fading-secondary);
-}
-
-#directory-header {
-    font-size: 3rem;
-    margin-bottom: 5%;
-    color: var(--primary-color);
-}
-
-.sorting-button {
-    border: var(--secondary-color) 0.1rem solid;
-    padding: 8px 10px 5px;
-    margin: 0 0.5rem;
-    height: auto;
-}
-
-.sorting-button img {
-    display: inline-block;
-    width: 40px;
-    height: auto;
-}
-
-.sorting-button:hover {
-    box-shadow: -2px -2px 5px 1.5px var(--fading-secondary) inset,
-    2px 2px 5px 1.5px var(--fading-secondary) inset;
-}
-
-#directory-image img{
+#hero-image img{
     opacity: 0.6;
     width: 100%;
     height: auto;
-}
-
-/*Directory Cards*/
-h3.company-name {
-    font-family: var(--main-font);
-}
-
-#member-list {
-    margin: 2rem auto;
-}
-
-#member-list.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-    align-items: center;
-}
-
-#member-list.grid p {
-    font-size: 1.3rem;
-}
-
-#member-list.grid a {
-    font-size: 1.2rem;
-}
-
-#member-list.grid section {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-#member-list.grid section > * {
-    margin: 0.5rem;
-}
-
-#member-list.grid img {
-    border: 1px solid #fff;
-    box-shadow: 0 0 1rem #555;
-    width: 80%;
-    height: auto;
-}
-
-#member-list.list {
-    display: flex;
-    flex-direction: column;
-}
-
-#member-list.list section {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    margin: 0;
-    padding: 0.5rem 0.25rem;
-}
-
-#member-list.list section > * {
-    margin: 0 1rem;
-}
-
-#member-list.list section img {
-    display: none;
-}
-
-#member-list.list section h3 {
-    font-size: 1rem;
-}
-
-#member-list.list section:nth-child(even) {
-    background-color: var(--fading-secondary);
-}
-
-#member-list.list section a {
-    line-break: anywhere;
-}
-
-
-#member-list.grid .company-name {
-    display: none;
 }
 
 .bronze {

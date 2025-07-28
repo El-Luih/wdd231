@@ -10,6 +10,7 @@
     <meta property="og:description" content="The directory page of the Chamber of Commerce website project.">
     <meta property="og:image" content="https://el-luih.github.io/wdd231/chamber/images/logo.svg">
     <meta property="og:url" content="https://el-luih.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -17,9 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <script src="scripts/dates.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/directory.mjs" type="module"></script>
 </head>
 <body>
     <header>
@@ -37,7 +36,7 @@
     </header>
     <main>
         <div class="directory-hero">
-            <picture id="directory-image">
+            <picture id="hero-image">
                 <source srcset="images/hero-large.webp" media="(min-width: 800px)">
                 <img src="images/hero-small.webp" alt="Ciudad de Guatemala Landscape" loading="lazy">
             </picture>

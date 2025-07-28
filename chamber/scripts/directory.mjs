@@ -1,3 +1,7 @@
+import setDefaultElements from "./main.mjs";
+
+setDefaultElements();
+
 const memberList = document.querySelector("#member-list");
 const gridButton = document.querySelector("#grid-button");
 const listButton = document.querySelector("#list-button");
