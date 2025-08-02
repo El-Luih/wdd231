@@ -83,11 +83,12 @@ const allFilter = document.querySelector("#allFilter");
 const cseFilter = document.querySelector("#cseFilter");
 const wddFilter = document.querySelector("#wddFilter");
 const creditCount = document.querySelector("#totalCredits");
+const courseDetails = document.querySelector("#course-details");
 
 displayCourses(courses);
 
 function displayCourses(courses) {
-    coursesSection.innerHTML = formatCourses(courses);
+    formatCourses(courses);
     creditCount.textContent = courses.reduce((accumulator, course) =>
         accumulator + course.credits,
         0
@@ -95,16 +96,20 @@ function displayCourses(courses) {
 }
 
 function formatCourses(courses) {
-    return courses.map((course) =>
-        course.completed ? 
-            `<p class="completed">
+    courses.forEach((course) => {
+        const courseDiv = document.createElement('p');
+        courseDiv.textContent = `${course.subject} ${course.number}`;
+        if (course.completed) {
+            /*`<p class="completed">
             ${course.subject} ${course.number}
-            </p>`
-            : 
-            `<p>
-            ${course.subject} ${course.number}
-            </p>`
-        ).join("");
+            </p>`*/
+            courseDiv.classList.add('completed');
+        }
+        courseDiv.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+        coursesSection.appendChild(courseDiv);
+        });
 }
 
 function filterCourses(courses, subject) {
@@ -124,4 +129,24 @@ wddFilter.addEventListener("click", function () {
     displayCourses(filterCourses(courses, "WDD"));
 })
 
+
+/*MODAL*/
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <h2>${course.subject} ${course.number}</h2>
+    <button id="closeModal">✖</button>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
 
