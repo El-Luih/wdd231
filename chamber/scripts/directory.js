@@ -55,8 +55,8 @@ function displayCompanies(companies) {
             level.textContent = "Gold"
             level.classList.add("gold");
         } else {
-            level.textContent = "Not a Member"
-            level.classList.add("no-member");
+            level.textContent = "NP"
+            level.classList.add("non-profit");
         };
         card.appendChild(logo);
         card.appendChild(name);

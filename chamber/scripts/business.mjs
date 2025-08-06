@@ -1,3 +1,4 @@
+import membership from "./membership.mjs";
 const businessDataManager = {
     /*Retrives the businesses data from an specific url and calls the display
     function on the retrived object's companies array.
@@ -26,27 +27,6 @@ const businessDataManager = {
         }
 
         return Array.from(indexSet);
-    },
-
-    /* Adds the necessary tags for appropriate styling to an element that displays 
-    the membership level of a specific business object, using its "level" property (an integer).
-    Arguments:
-    - The membership level.
-    - The HTML element that displays the membership level. */
-    displayMembership(businessLevel, levelElement) {
-        if (businessLevel === 1) {
-            levelElement.textContent = "Member";
-            levelElement.classList.add("bronze");
-        } else if (businessLevel === 2) {
-            levelElement.textContent = "Silver";
-            levelElement.classList.add("silver");
-        } else if (businessLevel === 3) {
-            levelElement.textContent = "Gold"
-            levelElement.classList.add("gold");
-        } else {
-            levelElement.textContent = "Not a Member"
-            levelElement.classList.add("no-member");
-        };
     },
 
     /*Creates the HTML elements of each business card according to the format 
@@ -87,7 +67,7 @@ const businessDataManager = {
             const businessAddress = `${address.street}, ${address.zone}`
 
             bArticleName.textContent = businessName;
-            this.displayMembership(businessLevel, bArticleLevel);
+            membership.styleMembership(businessLevel, bArticleLevel);
             bArticleImage.setAttribute('src', `images/${businessImage}`);
             bArticleImage.setAttribute('alt', `${businessName} Logo`);
             bArticleImage.setAttribute('loading', 'lazy');

@@ -7,6 +7,10 @@
     --accent-color-2: #682e1d;
     --main-font: "Montserrat", sans-serif;
     --style-font: "Playfair Display", serif;
+    --non-profit-color: lime;
+    --bronze-color: #8a5e32;
+    --silver-color: #8c9093;
+    --gold-color: rgb(190, 139, 9);
 }
 
 body {
@@ -113,22 +117,22 @@ header {
 }
 
 .bronze {
-    color: #8a5e32;
+    color: var(--bronze-color);
     font-weight: 800;
 }
 
 .silver {
-    color: #8c9093;
+    color: var(--silver-color);
     font-weight: 800;
 }
 
 .gold {
-    color: rgb(190, 139, 9);
+    color: var(--gold-color);
     font-weight: 800;
 }
 
-.no-member {
-    color: black;
+.non-profit {
+    color: var(--non-profit-color);
     font-weight: 800;
 }
 
