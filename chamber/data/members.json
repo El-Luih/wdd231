@@ -27,6 +27,19 @@
             "level": 2
         },
         {
+            "name": "EcoFuturo Guatemala",
+            "address": {
+                "street": "12 Calle 4-55",
+                "zone": "Zona 10",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01010"
+            },
+            "phoneNumber": "+502 2299-5566",
+            "url": "https://ecofuturo.gt",
+            "icon": "ecofuturo.webp",
+            "level": 0
+        },
+        {
             "name": "DigitalHive Agency",
             "address": {
                 "street": "Diagonal 6 10-45",
@@ -90,6 +103,19 @@
             "url": "https://innovamed.gt",
             "icon": "innovamed.webp",
             "level": 2
+        },
+        {
+            "name": "Manos Unidas Fundation",
+            "address": {
+                "street": "6a Avenida 1-23",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "phoneNumber": "+502 2233-4455",
+            "url": "https://manosunidas.gt",
+            "icon": "manosunidas.webp",
+            "level": 0
         }
     ]
 }
