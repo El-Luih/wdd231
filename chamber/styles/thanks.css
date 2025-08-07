@@ -1,0 +1,75 @@
+/* SMALL SCREENS */
+#thanks-message {
+    width: 90%;
+    margin: 8rem auto;
+}
+
+#thanks-message h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#thanks-message .confirmation-info {
+    border: thin var(--secondary-color) solid;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem auto 0;
+    text-align: center;
+}
+
+#thanks-message .confirmation-info p {
+    margin-bottom: 2rem;
+}
+
+#thanks-message .confirmation-info p strong {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+#thanks-message .confirmation-info p span {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin-top: 0.2rem;
+}
+
+#thanks-message .confirmation-info .timestamp-display {
+    display: block;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+#thanks-message .confirmation-info .timestamp-display strong {
+    color: black;
+    font-size: 1rem;
+}
+
+/* LARGER SCREENS */
+@media screen and (min-width: 800px) {
+
+    #thanks-message {
+        width: 80%;
+        max-width: 850px;
+        padding: 1rem 2rem;
+    }
+
+    #thanks-message .confirmation-info p {
+        display: grid;
+        margin-bottom: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1.1rem;
+        gap: 0 1rem;
+    }
+
+    #thanks-message .confirmation-info p strong {
+        justify-self: end;
+    }
+
+    #thanks-message .confirmation-info p span {
+        text-align: start;
+    }
+
+    .timestamp-display {
+        font-size: 0.95rem;
+    }
+}

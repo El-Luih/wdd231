@@ -35,68 +35,71 @@
         </nav>
     </header>
     <main>
-        <h1>Apply to join now!</h1>
-        <form action="thanks.html" method="get">
-            <label class="field-name">
-                <span>First Name</span>
-                <input type="text" name="fname" id="first-name" autocomplete="given-name" required>
-            </label>
-            <label class="field-name">
-                <span>Last Name</span>
-                <input type="text" name="lname" id="last-name" autocomplete="family-name" required>
-            </label>
-            <label class="field-name">
-                <span>Title</span><span class="filling-instructions">(minimum 7 characters, only letters, hyphens and spaces)</span>
-                <input type="text" name="org-title" id="org-title" autocomplete="organization-title" pattern="^[a-zA-Z\- ]{7,}$" required>
-            </label>
-            <label class="field-name">
-                <span>Email Address</span>
-                <input type="email" name="email" id="email" autocomplete="email" placeholder="email@example.com" required>
-            </label>
-            <label class="field-name">
-                <span>Mobile Number</span>
-                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" required>
-            </label>
-            <label class="field-name">
-                <span>Business/Organization's Name</span>
-                <input type="text" name="organization" id="organization" autocomplete="organization" required>
-            </label>
-            <label class="field-name">
-                <span>Membership Level</span>
-                <select name="membership" id="membership" required>
-                    <option value="" disabled selected></option>
-                    <option value="0">NP Membership</option>
-                    <option value="1">Bronze Membership</option>
-                    <option value="2">Silver Membership</option>
-                    <option value="3">Gold Membership</option>
-                </select>
-            </label>
-            <label class="field-name">
-                <span>Business/Organization's Description</span><span class="filling-instructions">(Optional)</span>
-                <textarea name="description" id="description" rows="5" placeholder="Your business/org description goes here..."></textarea>
-            </label>
-            <input type="hidden" name="timestamp" id="timestamp">
-            <input type="submit" value="Join Now!" id="submit-button" class="generic-button">
-        </form>
-        <section>
-            <h2>Membership Levels</h2>
-            <article class="membership-level non-profit">
-                <h3>Non Profit Membership Level</h3>
-                <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="np-button">Learn More</button>
-            </article>
-            <article class="membership-level bronze">
-                <h3>Bronze Membership Level</h3>
-                <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="bronze-button">Learn More</button>
-            </article>
-            <article class="membership-level silver">
-                <h3>Silver Membership Level</h3>
-                <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="silver-button">Learn More</button>
-            </article>
-            <article class="membership-level gold">
-                <h3>Gold Membership Level</h3>
-                <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="gold-button">Learn More</button>
-            </article>
-        </section>
+        <h1 id="join-header">Apply to join now!</h1>
+        <div id="content-grid">
+            <form action="thanks.html" method="get" id="joining-form">
+                <h2 id="form-header">Membership Application Form</h2>
+                <label class="field-name">
+                    <span>First Name</span>
+                    <input type="text" name="fname" id="first-name" autocomplete="given-name" required>
+                </label>
+                <label class="field-name">
+                    <span>Last Name</span>
+                    <input type="text" name="lname" id="last-name" autocomplete="family-name" required>
+                </label>
+                <label class="field-name">
+                    <span>Title<span class="filling-instructions">(> 7 characters, only letters, hyphens and spaces)</span></span>
+                    <input type="text" name="org-title" id="org-title" autocomplete="organization-title" pattern="^[a-zA-Z\- ]{7,}$" required>
+                </label>
+                <label class="field-name">
+                    <span>Email Address</span>
+                    <input type="email" name="email" id="email" autocomplete="email" placeholder="email@example.com" required>
+                </label>
+                <label class="field-name">
+                    <span>Mobile Number</span>
+                    <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" required>
+                </label>
+                <label class="field-name">
+                    <span>Business/Organization's Name</span>
+                    <input type="text" name="organization" id="organization" autocomplete="organization" required>
+                </label>
+                <label class="field-name">
+                    <span>Membership Level</span>
+                    <select name="membership" id="membership" required>
+                        <option value="" disabled selected>--</option>
+                        <option value="0">NP Membership</option>
+                        <option value="1">Bronze Membership</option>
+                        <option value="2">Silver Membership</option>
+                        <option value="3">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="field-name">
+                    <span>Business/Organization's Description<span class="filling-instructions">(Optional)</span></span>
+                    <textarea name="description" id="description" rows="5" placeholder="Your business/org description goes here..."></textarea>
+                </label>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Join Now!" id="submit-button" class="generic-button">
+            </form>
+            <section id="membership-section">
+                <h2 id="membership-header">Membership Levels</h2>
+                <article class="membership-level non-profit">
+                    <h3>Non Profit Membership Level</h3>
+                    <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="np-button">Learn More</button>
+                </article>
+                <article class="membership-level bronze">
+                    <h3>Bronze Membership Level</h3>
+                    <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="bronze-button">Learn More</button>
+                </article>
+                <article class="membership-level silver">
+                    <h3>Silver Membership Level</h3>
+                    <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="silver-button">Learn More</button>
+                </article>
+                <article class="membership-level gold">
+                    <h3>Gold Membership Level</h3>
+                    <button class="modal-propmt-button generic-button" popovertarget="membership-modal" id="gold-button">Learn More</button>
+                </article>
+            </section>
+        </div>
         <dialog id="membership-modal" popover>
         </dialog>
     </main>

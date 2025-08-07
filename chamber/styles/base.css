@@ -7,7 +7,7 @@
     --accent-color-2: #682e1d;
     --main-font: "Montserrat", sans-serif;
     --style-font: "Playfair Display", serif;
-    --non-profit-color: lime;
+    --non-profit-color: rgb(45, 163, 45);
     --bronze-color: #8a5e32;
     --silver-color: #8c9093;
     --gold-color: rgb(190, 139, 9);
@@ -28,6 +28,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     padding: 0.5rem 0;
+    background-color: var(--primary-color);
 }
 
 

@@ -22,12 +22,12 @@ const formProcessor = {
         const infoBox = document.createElement('div');
         infoBox.classList.add('confirmation-info');
         infoBox.innerHTML = `
-        <p><strong>First Name:</strong> ${params.get('fname')}</p>
-        <p><strong>Last Name:</strong> ${params.get('lname')}</p>
-        <p><strong>Email:</strong>  ${params.get('email')}</p>
-        <p><strong>Mobile Number:</strong>  ${params.get('phone-number')}</p>
-        <p><strong>Business/Organization:</strong>  ${params.get('organization')}</p>
-        <p><strong>${params.get('timestamp')}</strong></p>`
+        <p><strong>First Name:</strong> <span>${params.get('fname')}</span></p>
+        <p><strong>Last Name:</strong> <span>${params.get('lname')}</span></p>
+        <p><strong>Email:</strong>  <span>${params.get('email')}</span></p>
+        <p><strong>Mobile Number:</strong>  <span>${params.get('phone-number')}</span></p>
+        <p><strong>Business/Organization:</strong>  <span>${params.get('organization')}</span></p>
+        <p class="timestamp-display"><strong>${params.get('timestamp')}</strong></p>`
         container.appendChild(infoBox);
     }
 }
