@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD-231 | Site Planning - Luis Maradiaga</title>
+    <meta name="author" content="Luis Maradiaga">
+    <meta name="description" content="A site-panning HTML document for the final project of the course.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="styles/site-plan.css" rel="stylesheet">
+    <link href="images/fc-icon.ico" rel="icon">
+</head>
+<body>
+    <header>
+        <h1>WDD-231 Final Project Planning</h1>
+        <img src="images/fc-banner-white.svg" alt="Fencer's Collection Banner" class="main fc-banner">
+    </header>
+    <main>
+        <article class="content">
+            <h2>Identifiers</h2>
+            <div class="identifiers grid">
+                <section class="site-name column">
+                    <h3>Site Name</h3>
+                    <p>Fencer's Collection<br>
+                    <span>Auctioneers & Appraisers</span></p>
+                    <h4>Why This Name?</h4>
+                    <ul>
+                        <li>Clear, elegant, and easy to remember.</li>
+                        <li>Directly relates to antique melee weaponry.</li>
+                        <li>Appeals to collectors of historical and medieval arms.</li>
+                        <li>States the business type and market focus.</li>
+                    </ul>
+                    <h3 id="domain">Representative Domain: <span id="domain-display">fc-auctions.org</span></h3>
+                </section>
+                <section class="images column">
+                    <h3>Images</h3>
+                    <div class="logo grid">
+                        <figure>
+                            <figcaption>--Logo (black)</figcaption>
+                            <img src="images/fc-logo-black.png" alt="" class="small fc-logo black">
+                        </figure>
+                        <figure>
+                            <figcaption>--Logo (white)</figcaption>
+                            <img src="images/fc-logo-white.png" alt="" class="small fc-logo white">
+                        </figure>
+                    </div>     
+                    <figure>
+                        <figcaption>--Banner (white letters)</figcaption>
+                        <img src="images/fc-banner-white.svg" alt="Fencer's Collection Banner White" class="small fc-banner white">
+                    </figure>                
+                    <figure>
+                        <figcaption>--Banner (black letters)</figcaption>
+                        <img src="images/fc-banner-black.svg" alt="Fencer's Collection Banner Black" class="small fc-banner black">
+                    </figure>
+                </section>
+            </div>
+            <h2>Vision and Objective</h2>
+            <div class="vision grid">
+                <section class="purpose column">
+                    <h3>Site Purpose</h3>
+                    <p>To present our weekly and upcoming auctions of historical weaponry, showcase items available for direct purchase,
+                        and provide access to our network of curators, collectible experts, restorers, and in-house appraisers.
+                        The information mentioned before is retrieved from a JSON file.
+                        The site also offers information to help you contact us or visit the nearest location using an API.</p>
+                </section>
+                <section class="services column">
+                    <h3>Offered Services</h3>
+                    <ul>
+                        <li>Admission to historical weaponry auctions.</li>
+                        <li>Access to professional appraisers and curators.</li>
+                        <li>Direct contact information for expert assistance.</li>
+                        <li>Information on sponsored and special events.</li>
+                        <li>Referrals to trusted restoration service providers.</li>
+                    </ul>
+                </section>
+                <section class="scenarios central-column">
+                    <h3>Scenarios</h3>
+                    <ul>
+                        <li>
+                            <p><strong>“What historical weapons are being auctioned this week, and how can I place a bid?”</strong></p>
+                            <p>Drives content for: weekly auction listings, bidding instructions, and auction schedule.</p>
+                        </li>
+                        <li>
+                            <p><strong>“Can I get my antique sword appraised and possibly included in a future auction?”</strong></p>
+                            <p>Drives content for: appraisal service details, contact forms for appraisers, and submission guidelines for auction items.</p>
+                        </li>
+                        <li>
+                            <p><strong>“Where is the nearest Fencer’s Collection location, and do you have items I can buy directly?”</strong></p>
+                            <p>Drives content for: location map and directions, store inventory listings, and direct purchase options.</p>
+                        </li>
+                        <li>
+                            <p><strong>“Do you offer restoration services for damaged historical weapons, or can you recommend someone?”</strong></p>
+                            <p>Drives content for: restoration referral information, partner contacts, and guidelines for preserving historical items.</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <h2>Styling</h2>
+            <div class="styling grid">
+                <section class="color column">
+                    <h3>Color Schema</h3>
+                    <ul>
+                        <li>
+                            <p><strong>Primary Color: </strong></p>
+                            <p>Used for the main header and structural frame of the page.<span class="primary-color">#000000</span></p>
+                        </li>
+                        <li>
+                            <p><strong>Secondary Color: </strong></p>
+                            <p>Applied to section backgrounds to define content areas.<span class="secondary-color">#2a2a2a</span></p>
+                        </li>
+                        <li>
+                            <p><strong>Third Color: </strong></p>
+                            <p>Used for text and to separate page elements for better readability.<span class="third-color">#ffffff</span></p>
+                        </li>
+                        <li>
+                            <p><strong>Accent Color: </strong></p>
+                            <p>Highlights important sections and adds subtle visual emphasis.<span class="accent-color">#891738</span></p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="typography column">
+                    <h3>Typography</h3>
+                    <ul>
+                        <li>
+                            <p><strong>Primary Font: </strong></p>
+                            <p>Used for paragraph text, flavor text, and the majority of the document's content.
+                                <span class="primary-font">Cormorant Garamond</span>
+                            </p>
+                        </li>
+                        <li> 
+                            <p><strong>Secondary Font: </strong></p>
+                            <p>Reserved for headings, titles, and other key display text to add an elegant and formal touch.
+                                <span class="secondary-font">Lora Serif</span>
+                            </p>
+                        </li>
+                        <li> 
+                            <p><strong>Accent Font: </strong></p>
+                            <p>Used sparingly for decorative elements and special emphasis to add a formal and chivalrous flair.
+                                <span class="accent-font">Italianno Cursive</span>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <h2 class="wireframes">Wireframes</h2>
+            <div class="wireframes grid">
+                <section class="desktop row">
+                    <figure>
+                        <figcaption>Desktop</figcaption>
+                        <img src="images/desktop-wireframe.webp" alt="Desktop Wireframe" class="wireframe">
+                    </figure>
+                </section>
+                <section class="mobile row">
+                    <figure>
+                        <figcaption>Mobile</figcaption>
+                        <img src="images/mobile-wireframe.webp" alt="Mobile Wireframe" class="wireframe">
+                    </figure>
+                </section>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
