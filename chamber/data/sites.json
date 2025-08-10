@@ -89,7 +89,7 @@
                 "postalCode": "01013"
             },
             "description": "Zoológico La Aurora is Guatemala City's main zoo, housing a diverse collection of native and exotic animals within landscaped grounds and offering educational programs and recreational activities for visitors of all ages.",
-            "image": "zoologico-la-aurora.webp"
+            "image": "la-aurora.webp"
         },
         {
             "name": "Catedral Metropolitana de Santiago de Guatemala",
@@ -102,7 +102,7 @@
                 "postalCode": "01001"
             },
             "description": "The Metropolitan Cathedral of Saint James is the main Catholic cathedral in Guatemala City, located in Plaza de la Constitución, renowned for its baroque and neoclassical architecture, religious significance, and historical importance.",
-            "image": "catedral-metropolitana.webp"
+            "image": "catedral-santiago.webp"
         }
     ]
 }
