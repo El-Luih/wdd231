@@ -1,6 +1,6 @@
 /*SMALL SCREENS*/
     /*Generic Elements*/
-    .generic-button {
+    .main-button {
         text-decoration: none;
         color: var(--primary-color);
         background-color: var(--secondary-color);
@@ -15,7 +15,7 @@
         padding: 0;
     }
 
-    #index-hero .generic-button {
+    #index-hero .main-button {
         position: absolute;
         right: 2vw;
         bottom: 3.5vw;
@@ -156,7 +156,7 @@
         margin: 0 auto;
     }
 
-    .generic-button {
+    .main-button {
         padding: 2vw;
         font-size: 2.2vw;
     }
