@@ -1,0 +1,108 @@
+{
+    "items": [
+        {
+            "name": "Quema del Torito",
+            "translation": "Burning of the Little Bull",
+            "address": {
+                "reference": "Plaza de la Constitución",
+                "street": "6a Calle",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "description": "This Guatemalan tradition, which began after the Spanish conquest, features a handmade, brightly decorated bull filled with fireworks that, when lit in front of churches, is carried by a person who dances and chases passersby.",
+            "image": "torito.webp"
+        },
+        {
+            "name": "El Carnaval",
+            "translation": "The Carnival",
+            "address": {
+                "reference": "Avenida Simeón Cañas",
+                "street": "Avenida Simeón Cañas",
+                "zone": "Zona 2",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01002"
+            },
+            "description": "This festive celebration, held before Lent, features colorful parades, music, dancing, and costumes, with families and communities filling the streets to enjoy lively performances and playful traditions.",
+            "image": "carnaval.webp"
+        },
+        {
+            "name": "Danza de los Moros",
+            "translation": "Dance of the Moors",
+            "address": {
+                "reference": "Plaza de la Constitución",
+                "street": "6a Calle",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "description": "A traditional theatrical dance that reenacts the battles between Moors and Christians, performed with elaborate costumes, masks, and choreography to preserve colonial-era cultural heritage.",
+            "image": "danza-moros.webp"
+        },
+        {
+            "name": "Las Posadas",
+            "translation": "The Inns",
+            "address": {
+                "reference": "Iglesia de San Francisco",
+                "street": "6a Avenida",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "description": "A nine-night Christmas tradition in which participants reenact Mary and Joseph’s search for lodging, moving in processions between homes and churches while singing carols and sharing food.",
+            "image": "posadas.webp"
+        },
+        {
+            "name": "Paseo Cayalá",
+            "translation": "Cayalá Promenade",
+            "address": {
+                "reference": "Ciudad Cayalá",
+                "street": "10 Avenida de Ciudad Cayalá",
+                "zone": "Zona 16",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01016"
+            },
+            "description": "Paseo Cayalá is the pedestrian-friendly commercial and cultural center of Ciudad Cayalá in Zone 16 of Guatemala City, featuring Spanish-colonial–inspired architecture, public plazas, shops, restaurants, and cultural spaces designed to foster community interaction and walkability.",
+            "image": "cayala.webp"
+        },
+        {
+            "name": "Torre del Reformador",
+            "translation": "Reform Tower",
+            "address": {
+                "reference": "Parque Reforma",
+                "street": "9a Avenida y 3a Calle",
+                "zone": "Zona 9",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01009"
+            },
+            "description": "The Torre del Reformador is a 75-meter tall iron tower inspired by the Eiffel Tower, built in 1935 as a monument to the liberal reformer Justo Rufino Barrios, and is a well-known landmark in Guatemala City located within Parque Reforma.",
+            "image": "torre-reformador.webp"
+        },
+        {
+            "name": "Zoológico La Aurora",
+            "translation": "La Aurora Zoo",
+            "address": {
+                "reference": "Parque La Aurora",
+                "street": "Avenida La Reforma 0-01",
+                "zone": "Zona 13",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01013"
+            },
+            "description": "Zoológico La Aurora is Guatemala City's main zoo, housing a diverse collection of native and exotic animals within landscaped grounds and offering educational programs and recreational activities for visitors of all ages.",
+            "image": "zoologico-la-aurora.webp"
+        },
+        {
+            "name": "Catedral Metropolitana de Santiago de Guatemala",
+            "translation": "Metropolitan Cathedral of Saint James of Guatemala",
+            "address": {
+                "reference": "Plaza de la Constitución",
+                "street": "6a Calle Poniente",
+                "zone": "Zona 1",
+                "city": "Ciudad de Guatemala",
+                "postalCode": "01001"
+            },
+            "description": "The Metropolitan Cathedral of Saint James is the main Catholic cathedral in Guatemala City, located in Plaza de la Constitución, renowned for its baroque and neoclassical architecture, religious significance, and historical importance.",
+            "image": "catedral-metropolitana.webp"
+        }
+    ]
+}
