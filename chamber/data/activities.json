@@ -92,8 +92,8 @@
             "image": "la-aurora.webp"
         },
         {
-            "name": "Catedral de Santiago de Guatemala",
-            "translation": "Cathedral of Saint James of Guatemala",
+            "name": "Catedral de Santiago",
+            "translation": "Cathedral of Saint James",
             "address": {
                 "reference": "Plaza de la Constitución",
                 "street": "6a Calle Poniente",
