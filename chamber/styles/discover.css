@@ -6,10 +6,31 @@
             margin: 0 auto;
             display: block;
         }
+        #discover-title {
+            text-align: center;
+            padding: 3rem 0.5rem;
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+        }
+        #discover-title span {
+            font-size: 1rem;
+            display: block;
+            font-family: var(--main-font);
+            font-weight: 500;
+        }
     /*Activities Grid*/
+        #activities-section h2 {
+            margin: 2rem auto;
+            text-align: center;
+            font-size: 2rem;
+            border-bottom: var(--secondary-color) solid thin;
+            padding-bottom: 0.3rem;
+            width: 75%;
+        }
+
         #activities-grid {
             width: 96%;
-            margin: 0 auto;
+            margin: 0 auto 1.5rem;
         }
 
         #activities-grid .activity-card {
@@ -26,10 +47,11 @@
             border-radius: 0.6rem;
         }
 
-        .activity-card h2 {
+        .activity-card h3 {
             grid-area: name;
             text-align: center;
             margin-top: 1rem;
+            font-size: 1.5rem;
         }
 
         .activity-card figure {
@@ -125,7 +147,8 @@
 
         .activity-card p {
             box-sizing: border-box;
-            padding: 0.5rem 1rem;
+            padding: 0.5rem 0.5rem;
+            border-left: solid thin var(--secondary-color);
         }
 
         .activity-card figure {
@@ -136,12 +159,10 @@
             width: 300px;
             height: auto;
             border-radius: 0;
-            margin-left: 2%;
-            padding: 0.5rem 0.5rem 0 0;
-            border-right: solid thin var(--secondary-color);
+            margin: 0.5rem;
         }
 
-        .activity-card h2 {
+        .activity-card h3 {
             width: 80%;
             margin: 0.5rem auto 0;
             padding-bottom: 0.5rem;
@@ -172,5 +193,10 @@
         #activities-grid .activity-card {
             min-height: auto;
             height: 100%;
+        }
+        #activities-grid img:hover {
+            box-shadow: 0 0 8px 4px var(--fading-secondary);
+            transform: scale(1.05);
+            border-radius: 6px;
         }
     }

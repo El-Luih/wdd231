@@ -10,7 +10,7 @@
                 "city": "Ciudad de Guatemala",
                 "postalCode": "01001"
             },
-            "description": "This Guatemalan tradition, which began after the Spanish conquest, features a handmade, brightly decorated bull filled with fireworks that, when lit in front of churches, is carried by a person who dances and chases passersby.",
+            "description": "This Guatemalan tradition, features a handmade, brightly decorated bull filled with fireworks that, when lit in front of churches, is carried by a person who dances and chases passersby.",
             "image": "torito.webp"
         },
         {
@@ -62,7 +62,7 @@
                 "city": "Ciudad de Guatemala",
                 "postalCode": "01016"
             },
-            "description": "Paseo Cayalá is the pedestrian-friendly commercial and cultural center of Ciudad Cayalá in Zone 16 of Guatemala City, featuring Spanish-colonial–inspired architecture, public plazas, shops, restaurants, and cultural spaces designed to foster community interaction and walkability.",
+            "description": "Paseo Cayalá is the commercial and cultural center of Ciudad Cayalá. Featuring Spanish-colonial–inspired architecture, public plazas, shops, restaurants, and quaint cultural spaces.",
             "image": "cayala.webp"
         },
         {
@@ -75,7 +75,7 @@
                 "city": "Ciudad de Guatemala",
                 "postalCode": "01009"
             },
-            "description": "The Torre del Reformador is a 75-meter tall iron tower inspired by the Eiffel Tower, built in 1935 as a monument to the liberal reformer Justo Rufino Barrios, and is a well-known landmark in Guatemala City located within Parque Reforma.",
+            "description": "The Torre del Reformador is a 75-meter tall iron tower inspired by the Eiffel Tower, built in 1935 as a monument to the liberal reformer Justo Rufino Barrios.",
             "image": "torre-reformador.webp"
         },
         {
@@ -88,7 +88,7 @@
                 "city": "Ciudad de Guatemala",
                 "postalCode": "01013"
             },
-            "description": "Zoológico La Aurora is Guatemala City's main zoo, housing a diverse collection of native and exotic animals within landscaped grounds and offering educational programs and recreational activities for visitors of all ages.",
+            "description": "Zoológico La Aurora houses a diverse collection of native and exotic animals within landscaped grounds and offers educational programs for visitors of all ages.",
             "image": "la-aurora.webp"
         },
         {
@@ -101,7 +101,7 @@
                 "city": "Ciudad de Guatemala",
                 "postalCode": "01001"
             },
-            "description": "The Metropolitan Cathedral of Saint James is the main Catholic cathedral in Guatemala City, located in Plaza de la Constitución, renowned for its baroque and neoclassical architecture, religious significance, and historical importance.",
+            "description": "The Cathedral of Saint James is the main Catholic cathedral in Guatemala City, renowned for its baroque architecture, and both religious and historical importance.",
             "image": "catedral-santiago.webp"
         }
     ]

@@ -13,7 +13,7 @@ const activitiesManager = {
         activities.forEach(item => {
 
             const activityArticle = document.createElement('article');
-            const actArticleTitle = document.createElement('h2');
+            const actArticleTitle = document.createElement('h3');
             const actArticleTrans = document.createElement('span');
             const actArticleFig = document.createElement('figure');
             const actArticleImg = document.createElement('img');
