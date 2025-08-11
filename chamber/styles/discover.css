@@ -103,10 +103,8 @@
             background-color: var(--accent-color-2);
             color: var(--primary-color);
             padding: 1rem;
-            font-size: 1.2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            font-size: 1.5rem;
+            display: block;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
             z-index: 1000;
             pointer-events: auto;
@@ -114,22 +112,27 @@
             transition: opacity 0.5s ease;
             width: 40%;
             border-radius: 6px;
+            text-align: center;
         }
 
         .visit-popup.hide {
-            opacity: 0;
+            display: none;
             pointer-events: none;
         }
 
         .visit-popup button {
             background: transparent;
             border: none;
-            color: white;
-            font-size: 20px;
+            color: var(--primary-color);
+            font-size: 2rem;
             cursor: pointer;
             line-height: 1;
             padding: 0 8px;
             user-select: none;
+            position: absolute;
+            right: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
 
