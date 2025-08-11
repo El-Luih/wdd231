@@ -1,4 +1,176 @@
 /*SMALL SCREENS*/
+    /*Generic Elements*/
+        .generic-button {
+            height: 44px;
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+    /*Activities Grid*/
+        #activities-grid {
+            width: 96%;
+            margin: 0 auto;
+        }
+
+        #activities-grid .activity-card {
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-areas: 
+            "name"
+            "photo"
+            "description"
+            "location"
+            "button";
+            border: thin solid var(--secondary-color);
+            border-radius: 0.6rem;
+        }
+
+        .activity-card h2 {
+            grid-area: name;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .activity-card figure {
+            grid-area: photo;
+            width: 100%;
+            margin: 1rem 0;
+        }
+
+        .activity-card img {
+            width: 96%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 6px;
+        }
+
+        .activity-card p {
+            grid-area: description;
+            align-self: start;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .activity-card address {
+            grid-area: location;
+            margin: 1rem 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .activity-card button {
+            grid-area: button;
+            margin-bottom: 1rem;
+        }
+
+        .translation {
+            display: block;
+            font-weight: 450;
+            font-size: 1.1rem;
+            font-family: var(--main-font);
+            font-style: italic;
+        }
+    /*Custome Message Popup*/
+        .visit-popup {
+            position: fixed;
+            top: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--accent-color-2);
+            color: var(--primary-color);
+            padding: 1rem;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+            pointer-events: auto;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+            width: 40%;
+            border-radius: 6px;
+        }
+
+        .visit-popup.hide {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .visit-popup button {
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            line-height: 1;
+            padding: 0 8px;
+            user-select: none;
+        }
+
+
+/*MEDIUM SCREENS*/
+    @media screen and (min-width: 640px) {
+        #activities-grid .activity-card {
+            display: grid;
+            grid-template-areas: 
+            "name name"
+            "photo description"
+            "location location"
+            "button button";
+            grid-template-rows: auto 1fr auto auto;
+        }
+
+        .activity-card p {
+            box-sizing: border-box;
+            padding: 0.5rem 1rem;
+        }
+
+        .activity-card figure {
+            margin: 0;
+        }
+
+        .activity-card img {
+            width: 300px;
+            height: auto;
+            border-radius: 0;
+            margin-left: 2%;
+            padding: 0.5rem 0.5rem 0 0;
+            border-right: solid thin var(--secondary-color);
+        }
+
+        .activity-card h2 {
+            width: 80%;
+            margin: 0.5rem auto 0;
+            padding-bottom: 0.5rem;
+            border-bottom: thin solid var(--secondary-color);
+        }
+
+        .activity-card address {
+            padding: 0 1rem;
+            margin: 0.5rem 0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .activity-card button {
+            margin: 0 auto 0.5rem;
+        }
+    }
+
+
 /*LARGE SCREENS*/
-@media screen and (min-width: 800px) {
-}
+    @media screen and (min-width: 1025px) {
+        #activities-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem 1rem;
+            align-items: stretch;
+        }
+        #activities-grid .activity-card {
+            min-height: auto;
+            height: 100%;
+        }
+    }

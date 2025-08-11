@@ -18,7 +18,6 @@ export default function setDefaultElements() {
   lastModified.textContent = `Last Modification: ${document.lastModified}`;
 }
 
-
 /*
 I've decided to consolidate the shared logic from previous files into a single module, since the operations are very simple.
 
