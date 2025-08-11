@@ -102,29 +102,31 @@
             transform: translateX(-50%);
             background-color: var(--accent-color-2);
             color: var(--primary-color);
-            padding: 1rem;
+            padding: 1rem 2.5rem 1rem 1rem;
             font-size: 1.5rem;
             display: block;
             box-shadow: 0 2px 5px rgba(0,0,0,0.3);
             z-index: 1000;
-            pointer-events: auto;
             opacity: 1;
-            transition: opacity 0.5s ease;
-            width: 40%;
+            visibility: visible;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            width: 60%;
             border-radius: 6px;
             text-align: center;
         }
 
         .visit-popup.hide {
-            display: none;
-            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
         }
 
         .visit-popup button {
             background: transparent;
             border: none;
             color: var(--primary-color);
-            font-size: 2rem;
+            font-size: 44px;
+            width: 44px;
+            height: 44px;
             cursor: pointer;
             line-height: 1;
             padding: 0 8px;
