@@ -1,0 +1,60 @@
+@media screen and (min-width: 700px) {
+    /*General Styling*/
+        /*Header*/
+            header {
+                grid-template-columns: 50px 1fr 1fr;
+            }
+            #main-hamburger {
+                display: none;
+            }
+            .drop-down {
+                display: block;
+                margin-right: 0.5rem;
+            }
+            .drop-down ul {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+                place-items: center;
+                height: 100%;
+            }
+
+            .drop-down ul a {
+                background: none;
+                width: 100%;
+                box-sizing: border-box;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+
+            .drop-down a:hover {
+                border-radius: 6px;
+                border: 0.5px solid var(--third-color);
+            }
+
+            .drop-down ul li {
+                width: 100%;
+            }
+
+            .drop-down a.current::after {
+                content: none;
+            }
+
+            .drop-down a.current {
+                text-decoration: underline 0.1rem;
+                text-underline-offset: 6px;
+            }
+            #main-name-banner {
+                max-width: 400px;
+            }
+            #main-logo {
+                padding-left: 2vw;
+            }
+
+        /*Footer*/
+            footer {
+                grid-template-columns: 1fr 1fr 1fr;
+                text-align: start;
+            }
+
+
+}

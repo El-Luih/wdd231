@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #2a2a2a;
+    --third-color: #ffffff;
+    --accent-color: #891738;
+    --primary-font: "Cormorant Garamond", serif;
+    --secondary-font: "Lora", serif;
+    --accent-font: "Italianno", cursive;
+}
+
+/*General Style*/
+    body {
+        font-family: var(--primary-font);
+        color: var(--third-color);
+        background-color: var(--primary-color);
+    }
+
+    h1, h2, h3, h4 ,h5 ,h6 {
+        font-family: var(--secondary-font);
+        padding: 0;
+        margin: 0;
+    }
+    /*Header and Nav*/
+        header {
+            display: grid;
+            gap: 0 0.5rem;
+            grid-template-columns: 1fr 8fr 1fr;
+            padding: 0;
+            background-color: var(--primary-color);
+            border-bottom: solid thin var(--accent-color);
+        }
+        #main-logo {
+            height: auto;
+            width: 100%;
+            max-width: 48px;
+            padding: 1.5vw 0;
+            justify-self: center;
+        }
+        #main-name-banner {
+            box-sizing: border-box;
+            padding: 1vw 0.3rem 0;
+            max-width: 330px;
+            margin: 0 auto;
+        }
+        #main-hamburger {
+            background: none;
+            border: none;
+            box-sizing: border-box;
+            padding-right: 0.7rem;
+            padding-bottom: 1.5vw;
+        }
+        #main-hamburger::before {
+            content: "\2630";
+            font-size: 1.6rem;
+            color: var(--third-color);
+        }
+        #main-hamburger.show::before {
+            content: "✕";
+            font-size: 1.5rem;
+        }
+        .drop-down {
+            display: none;
+        }
+
+        .drop-down ul {
+            list-style: none;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .drop-down a {
+            display: block;
+            text-align: start;
+            padding: 0.6rem;
+            text-decoration: none;
+            background-color: var(--secondary-color);
+            font-weight: 700;
+            color: var(--third-color);
+        }
+
+        .drop-down a.current::after {
+            content: "←";
+            position: absolute;
+            right: 1.5rem;
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+
+        #main-menu.show {
+            grid-column: span 3;
+            display: grid;
+            place-items: start;
+        }
+    
+    /*Footer*/
+        footer {
+            padding: 1rem 0.5rem;
+            place-items: center;
+            text-align: center;
+            display: grid;
+            gap: 0.5rem;
+            font-size: 1rem;
+        }
+
+        footer strong {
+            display: block;
+        }
+
+        footer img {
+            width: 40px;
+            height: auto;
+            margin: 0 1rem;
+        }

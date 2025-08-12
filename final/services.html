@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD-231 | Fencer's Collection - Homepage | Luis Maradiaga - Final Project</title>
+    <title>WDD-231 | Fencer's Collection - Services | Luis Maradiaga - Final Project</title>
     <meta name="author" content="Luis Maradiaga">
-    <meta name="description" content="The home page of the Final Project for the WDD-231 class.">
-    <meta property="og:title" content="WDD-231 | Fencer's Collection - Homepage | Luis Maradiaga - Final Project">
-    <meta property="og:description" content="The home page of the Final Project for the WDD-231 class.">
+    <meta name="description" content="A page with all the information and tools needed to get in contact with the services of Fencer's Collection.">
+    <meta property="og:title" content="WDD-231 | Fencer's Collection - Services | Luis Maradiaga - Final Project">
+    <meta property="og:description" content="A page with all the information and tools needed to get in contact with the services of Fencer's Collection.">
     <meta property="og:image" content="https://el-luih.github.io/wdd231/final/images/fc-logo-white.svg">
-    <meta property="og:url" content="https://el-luih.github.io/wdd231/final/index.html">
+    <meta property="og:url" content="https://el-luih.github.io/wdd231/final/services.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <script src="scripts/index.js" type="module"></script>
+    <script src="scripts/services.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -26,48 +26,12 @@
         <button class="hamburger" id="main-hamburger" aria-label="Drop Menu"></button>
         <nav class="drop-down" id="main-menu">
             <ul>
-                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="auctions.html">Auctions</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="services.html" class="current">Services</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="index hero grid-2">
-            <picture class="index hero-image">
-                <source srcset="" media="(min-width: 600px)">
-                <img src="" alt="" width="" height="">
-            </picture>
-            <h1 class="index title">
-                <span class="flavor"></span>
-            </h1>
-            <article class="index call-to-action">
-                <h2>Sell Your Stuff</h2>
-                <p></p>
-                <a href="services.html#sell-form" class="generic-button"></a>
-            </article>
-            <article class="index call-to-action">
-                <h2>Learn about or services</h2>
-                <p></p>
-                <a href="services.html#contact-info" class="generic-button"></a>
-            </article>
-        </section>
-        <section class="index grid-2" id="auction-info">
-            <h2>
-                <span class="flavor"></span>
-            </h2>
-            <div class="index card-holder">
-                <h3>
-                    This Week's Auctions
-                    <span class="flavor"></span>
-                </h3>
-                <div class="index" id="auction-display">
-                    <!--Dynamically generated auction cards.-->
-                </div>
-                <iframe class="index" id="auction-map"></iframe>
-            </div>
-        </section>
-    </main>
     <footer>
         <section id="contact-info">
             <p>
