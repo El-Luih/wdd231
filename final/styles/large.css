@@ -1,8 +1,28 @@
-@media screen and (min-width: 700px) {
-    /*General Styling*/
+@media screen and (min-width: 800px) {
+    /*GENERAL STYLING*/
+        body {
+            font-size: 1.1rem;
+        }
         .grid-2 { 
             grid-template-columns: 1fr 1fr;
         }
+
+        .grid-3 {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .grid-2 .grid-title {
+            grid-column: span 2;
+        }
+
+        .grid-3 .grid-title {
+            grid-column: span 3;
+        }
+        .flavor {
+            font-size: 1.5rem;
+        }
+
+
         /*Header*/
             header {
                 grid-template-columns: 50px 1fr 1fr;
@@ -59,5 +79,69 @@
                 text-align: start;
             }
 
+    /*INDEX STYLING*/
+        .index .generic-button {
+            min-width: 150px;
+        }
+        /*Hero*/
+            .index.hero {
+                grid-template-rows: auto 1fr;
+                gap: 0 20%;
+            }
+            .index.hero h1 {
+                margin: 2rem auto;
+            }
+            .index.hero-image {
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+            }
+            .index.hero-image img {
+                width: 100%;
+                height: auto;
+                opacity: 0.3;
+                z-index: -1;
+            }
+            .index.hero h1 {
+                grid-column: 1 / 3;
+                grid-row: 1 / 2;
+                z-index: 1;
+            }
 
-}
+            .index.hero .content-box {
+                z-index: 1;
+                place-self: center;
+                background-color: var(--secondary-color);
+                display: grid;
+                grid-template-rows: minmax(1fr, 5rem) auto;
+                max-height: 350px;
+                min-height: 250px;
+            }
+
+            .index.hero #cta-selling {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+                
+            }
+            .index.hero #cta-services {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+
+            .index.call-to-action img{
+                display: none;
+            }
+        
+        /*Auctions Info*/
+            #auction-info {
+                grid-template-rows: auto 1fr;
+            }
+            #auction-info h2 {
+                margin: 6rem auto 3rem;
+            }
+            #auction-info h3 .flavor, #auction-info h2 .flavor { 
+                font-size: 1.3rem;
+            }
+            #auction-map {
+            height: auto;
+            }
+}       

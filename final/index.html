@@ -35,46 +35,59 @@
     <main>
         <section class="index hero grid-2">
             <picture class="index hero-image">
-                <source srcset="images/index-hero-large.webp" media="(min-width: 600px)">
-                <img src="images/index-hero.webp" alt="A small display of our swords collection." height="200px" width="400px">
+                <source srcset="images/index-hero-large.webp" media="(min-width: 800px) and (max-width: 1100px)">
+                <source srcset="images/index-hero-wide.webp" media="(min-width: 1100px)">
+                <img src="images/index-hero.webp" alt="A small display of our swords collection.">
             </picture>
-            <h1 class="index title">
+            <h1 class="index title grid-title">
                 <span class="flavor upper" id="visitor-message"></span>
                 The Fencer's Collection
                 <span class="flavor lower">Forging History into Possession.</span>
             </h1>
-            <article class="index call-to-action">
-                <img src="images/curator.webp" alt="One of our curators.">
-                <h2>Sell with Our House</h2>
-                <p>
+            <article class="index call-to-action content-box" id="cta-selling">
+                <img class="image-content" src="images/curator.webp" alt="One of our curators." loading="lazy">
+                <h2 class="title-content">Sell with Our House</h2>
+                <p class="text-content">
                     Provide your contact information, and our curators will be in touch to arrange a discreet, professional evaluation of your pieces.
                     <a href="services.html#sell-form" class="generic-button">Get In Touch</a>
                 </p>
             </article>
-            <article class="index call-to-action">
-                <img src="images/displayed-weapon.webp" alt="One of our weapons in display.">
-                <h2>Discover Our Services</h2>
-                <p>
+            <article class="index call-to-action content-box" id="cta-services">
+                <img class="image-content" src="images/displayed-weapon.webp" alt="One of our weapons in display." loading="lazy">
+                <h2 class="title-content">Discover Our Services</h2>
+                <p class="text-content">
                     Explore a full range of expert services—from curators and authenticators to specialists in historical items. Find detailed contact information and locations for all our auction house establishments.
                     <a href="services.html#contact-info" class="generic-button">Learn More</a>
                 </p>
             </article>
         </section>
+
         <section class="index grid-2" id="auction-info">
-            <h2>
-                <span class="flavor"></span>
+            <h2 class="grid-title">
+                Discover This Month’s Auctions & Locate Your Next Treasure
+                <span class="flavor lower">Explore the events and see their exact locations on the interactive map.</span>
             </h2>
-            <div class="index card-holder">
-                <h3>
-                    This Week's Auctions
-                    <span class="flavor"></span>
+            <div class="index card-holder content-box">
+                <h3 class="title-content">
+                    Auctions of The Month
+                    <span class="flavor lower">Browse this month’s highlights below and click “Learn More” to explore all upcoming auctions.</span>
                 </h3>
                 <div class="index" id="auction-display">
                     <!--Dynamically generated auction cards.-->
                 </div>
-                <iframe class="index" id="auction-map"></iframe>
+                <a href="auctions.html" class="generic-button">All Auctions</a>
             </div>
+            <iframe 
+                class="index content-box" 
+                id="auction-map" 
+                loading="lazy" 
+                src="https://www.google.com/maps?q=36.1699,-115.1398&hl=en&z=15&output=embed" 
+                allowfullscreen>
+            </iframe>
         </section>
+
+        <dialog class="index auction-modal" id="index-modal" popover>
+        </dialog>
     </main>
     <footer>
         <section id="contact-info">

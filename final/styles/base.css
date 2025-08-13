@@ -1,7 +1,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #0e0e0e;
-    --ligth-secondary: #141414c5;
+    --light-secondary: #141414c5;
     --third-color: #ffffff;
     --accent-color: #891738;
     --primary-font: "Cormorant Garamond", serif;
@@ -27,7 +27,7 @@
         text-align: center;
     }
 
-    .grid-2, .grid, .grid-3, .grid-auto {
+    .grid-2, .grid, .grid-3 {
         display: grid;
     }
 
@@ -38,7 +38,7 @@
         margin: 0.5rem auto 2rem;
     }
 
-    .hero-image {
+    .hero-image img, .hero-image{
         width: 100%;
         height: auto;
     }
@@ -78,8 +78,17 @@
     .generic-button:hover {
         background-color: var(--third-color);
         color: var(--primary-color);
-        border-color: var(--ligth-secondary);
-        box-shadow: inset 0 0 8px 2px var(--ligth-secondary);
+        border-color: var(--light-secondary);
+        box-shadow: inset 0 0 8px 2px var(--light-secondary);
+    }
+
+    .content-box {
+        width: 90%;
+        border: 1.5px solid var(--light-secondary);
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 1rem;
+        margin: 0 auto 2rem;
     }
 
     /*Header and Nav*/
@@ -175,17 +184,14 @@
         }
 
 /*INDEX STYLE*/
+    /*Generic*/
+    .index .generic-button {
+        margin: 1.5rem auto 0;
+        width: 50%;
+    }
     /*Hero*/
         .index.hero {
             place-items: center;
-        }
-        .index.call-to-action {
-            width: 90%;
-            border: 1.5px solid var(--ligth-secondary);
-            border-radius: 5px;
-            box-sizing: border-box;
-            padding: 1rem;
-            margin: 0 auto 2rem;
         }
             .index.call-to-action img {
                 width: 100%;
@@ -210,8 +216,25 @@
                 border-bottom-right-radius: 5px;
             }
 
-            .index.call-to-action .generic-button {
-                margin: 1.5rem auto 0;
-                width: 60%;
-            }
+    /*Auctions Info*/
+        #auction-info h2, #auction-info h3 { 
+            margin-bottom: 1rem;
+        }
+        #auction-info h3 .flavor { 
+            font-size: 1rem;
+        }
+
+        #auction-display.index {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #auction-display.index article {
+            flex-grow: 1;
+        }
+        #auction-map {
+            height: 90vw;
+            align-self: stretch;
+        }
+        
         
