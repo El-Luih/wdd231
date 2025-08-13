@@ -27,7 +27,7 @@
         text-align: center;
     }
 
-    .grid-2, .grid, .grid-3 {
+    .grid-2, .grid {
         display: grid;
     }
 
@@ -236,5 +236,48 @@
             height: 90vw;
             align-self: stretch;
         }
-        
+    /*Custome Message Popup*/
+        .visit-popup {
+            position: fixed;
+            top: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+            font-size: 1rem;
+            display: block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 6px;
+            text-align: center;
+            font-family: var(--secondary-font);
+        }
+
+        .visit-popup.hide {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .visit-popup button {
+            background: transparent;
+            border: none;
+            color: var(--primary-color);
+            font-size: 1rem;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            line-height: 1;
+            padding: 0 8px;
+            user-select: none;
+            position: absolute;
+            right: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
         

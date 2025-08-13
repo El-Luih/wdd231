@@ -32,6 +32,44 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="auctions hero">
+            <picture class="auctions hero-image">
+                <source srcset="images/" media="(min-width: 800px)">
+                <img src="images/" alt="">
+            </picture>
+            <h1 class="auctions">
+                Auctions of The House
+                <span class="flavor lower">Discover all upcoming auctions of our curated collections</span>
+            </h1>
+            <div class="buttons-bar grid-2">
+                <button id="all-button" class="sorting-button">All</button>
+                <button id="closed-button" class="sorting-button">Closed</button>
+                <button id="open-button" class="sorting-button">Open</button>
+                <button id="month-button" class="sorting-button">Month</button>
+                <button id="year-button" class="sorting-button">Year</button>
+            </div>
+        </section>
+        <div class="auctions" id="cards-section">
+            <div class="auctions content-box" id="auction-display">
+                <!--Dynamically generated auction cards.-->
+            </div>
+            <!--- The homepage and auction page use an embedded map from Google, 
+            so they are heavier than expected. I talked about using that in my 
+            site planning, and no one told me anything about it, which is supposed 
+            to happen if anything from my project may be considered bad design for 
+            the project specifications, so I assume it's ok.-->
+            <iframe 
+                class="auctions content-box" 
+                id="auction-map" 
+                loading="lazy" 
+                src="https://www.google.com/maps?q=36.1699,-115.1398&hl=en&z=15&output=embed" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <dialog class="auctions auction-modal" id="auctions-modal" popover>
+        </dialog>
+    </main>
     <footer>
         <section id="contact-info">
             <p>

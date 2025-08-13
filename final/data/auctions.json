@@ -108,14 +108,14 @@
         "event-name": "Classic Arms Auction",
         "event-place": "Vintage Auction House",
         "address": "1111 Walnut Street, Kansas City, MO, USA",
-        "date": "2027-01-20T10:00:00Z",
+        "date": "2024-01-20T10:00:00Z",
         "geo": { "latitude": 39.0997, "longitude": -94.5786 }
     },
     {
         "event-name": "Pioneer Weaponry Auction",
         "event-place": "Frontier Hall",
         "address": "2222 Frontier Road, Dallas, TX, USA",
-        "date": "2027-02-15T13:30:00Z",
+        "date": "2024-02-15T13:30:00Z",
         "geo": { "latitude": 32.7767, "longitude": -96.7970 }
     },
     {

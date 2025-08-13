@@ -7,17 +7,10 @@
             grid-template-columns: 1fr 1fr;
         }
 
-        .grid-3 {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
         .grid-2 .grid-title {
             grid-column: span 2;
         }
 
-        .grid-3 .grid-title {
-            grid-column: span 3;
-        }
         .flavor {
             font-size: 1.5rem;
         }
@@ -25,7 +18,12 @@
 
         /*Header*/
             header {
-                grid-template-columns: 50px 1fr 1fr;
+                grid-template-columns: minmax(30px, 65px) 1fr 1fr;
+            }
+            #main-logo {
+                max-width: 100%;
+                padding: 0 0 0 0.5rem;
+                place-self: center;
             }
             #main-hamburger {
                 display: none;
@@ -68,9 +66,6 @@
             }
             #main-name-banner {
                 max-width: 400px;
-            }
-            #main-logo {
-                padding-left: 2vw;
             }
 
         /*Footer*/
@@ -144,4 +139,19 @@
             #auction-map {
             height: auto;
             }
-}       
+        /*Custome Message Popup*/
+            .visit-popup {
+                font-size: 1.5rem;
+                padding: 1rem 2.5rem 1rem 1rem;
+            }
+            .visit-popup button {
+                font-size: 1.5rem;
+                width: 30px;
+                height: 30px;
+            }
+}
+
+/*VERY LARGE SPECIAL CASES*/
+@media screen and (min-width: 1200px) {
+
+}

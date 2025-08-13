@@ -39,8 +39,7 @@
                 <source srcset="images/index-hero-wide.webp" media="(min-width: 1100px)">
                 <img src="images/index-hero.webp" alt="A small display of our swords collection.">
             </picture>
-            <h1 class="index title grid-title">
-                <span class="flavor upper" id="visitor-message"></span>
+            <h1 class="index grid-title">
                 The Fencer's Collection
                 <span class="flavor lower">Forging History into Possession.</span>
             </h1>
@@ -67,7 +66,7 @@
                 Discover This Month’s Auctions & Locate Your Next Treasure
                 <span class="flavor lower">Explore the events and see their exact locations on the interactive map.</span>
             </h2>
-            <div class="index card-holder content-box">
+            <div class="index content-box">
                 <h3 class="title-content">
                     Auctions of The Month
                     <span class="flavor lower">Browse this month’s highlights below and click “Learn More” to explore all upcoming auctions.</span>
@@ -77,6 +76,11 @@
                 </div>
                 <a href="auctions.html" class="generic-button">All Auctions</a>
             </div>
+            <!--- The homepage and auction page use an embedded map from Google, 
+            so they are heavier than expected. I talked about using that in my 
+            site planning, and no one told me anything about it, which is supposed 
+            to happen if anything from my project may be considered bad design for 
+            the project specifications, so I assume it's ok.-->
             <iframe 
                 class="index content-box" 
                 id="auction-map" 
@@ -89,6 +93,10 @@
         <dialog class="index auction-modal" id="index-modal" popover>
         </dialog>
     </main>
+    <aside id="visitPopup" class="visit-popup">
+        <span id="visitPopupMessage"></span>
+        <button id="visitPopupClose" aria-label="Close message">✕</button>
+    </aside>
     <footer>
         <section id="contact-info">
             <p>

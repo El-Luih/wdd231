@@ -1,5 +1,3 @@
-
-
 const cardsManager = {
     async getAuctions(URL, containerID, filterOptions, modalID, mapID) {
         try {
@@ -54,6 +52,7 @@ const cardsManager = {
 
     buildAuctions(auctions, container, modalID, map) {
         const modal = document.getElementById(modalID);
+        container.innerHTML = '';
         auctions.forEach(auction => {
             const auctionDate = new Date(auction.date);
             const auctionDays = Math.floor(auctionDate / 1000 / 60 / 60 / 24);
@@ -142,6 +141,7 @@ const cardsManager = {
                     <span class="closed">Closed</span>
                 `;
             }
+
             modalAvaila.classList.add('auction-availa');
             modalAvaila.classList.add('grid-2');
             modalClose.textContent = "✕";
@@ -149,12 +149,15 @@ const cardsManager = {
             modalClose.setAttribute('popovertarget', modalID);
             modalClose.setAttribute('popovertargetaction', "hide");
 
-            modal.appendChild(modalName);
-            modal.appendChild(modalPlace);
-            modal.appendChild(modalAddress);
-            modal.appendChild(modalDate);
-            modal.appendChild(modalAvaila);
-            modal.appendChild(modalClose);
+            CArticleButton.addEventListener('click', () => {
+                modal.innerHTML = ''
+                modal.appendChild(modalName);
+                modal.appendChild(modalPlace);
+                modal.appendChild(modalAddress);
+                modal.appendChild(modalDate);
+                modal.appendChild(modalAvaila);
+                modal.appendChild(modalClose);
+            });
         });
     },
 
