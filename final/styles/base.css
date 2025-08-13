@@ -1,6 +1,7 @@
 :root {
     --primary-color: #000000;
-    --secondary-color: #2a2a2a;
+    --secondary-color: #0e0e0e;
+    --ligth-secondary: #141414c5;
     --third-color: #ffffff;
     --accent-color: #891738;
     --primary-font: "Cormorant Garamond", serif;
@@ -8,18 +9,79 @@
     --accent-font: "Italianno", cursive;
 }
 
-/*General Style*/
+/*GENERAL STYLE*/
+    * {
+        box-sizing: border-box;
+    }
+
     body {
         font-family: var(--primary-font);
         color: var(--third-color);
-        background-color: var(--primary-color);
+        background-color: var(--primary-color);   
     }
 
     h1, h2, h3, h4 ,h5 ,h6 {
         font-family: var(--secondary-font);
         padding: 0;
         margin: 0;
+        text-align: center;
     }
+
+    .grid-2, .grid, .grid-3, .grid-auto {
+        display: grid;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        width: 98%;
+        margin: 0.5rem auto 2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .flavor {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: var(--primary-font);
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .flavor.lower {
+        margin-top: 0.5rem;
+        border-top: thin solid var(--accent-color);
+    }
+
+    .flavor.upper {
+        border-bottom: var(--accent-color);
+        margin-bottom: 0.5rem;
+    }
+
+    .generic-button {
+        display: block;
+        text-decoration: none;
+        background-color: var(--primary-color);
+        color: var(--third-color);
+        font-family: var(--secondary-font);
+        font-weight: 600;
+        padding: 1rem;
+        border: thin solid var(--third-color);
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .generic-button:hover {
+        background-color: var(--third-color);
+        color: var(--primary-color);
+        border-color: var(--ligth-secondary);
+        box-shadow: inset 0 0 8px 2px var(--ligth-secondary);
+    }
+
     /*Header and Nav*/
         header {
             display: grid;
@@ -27,7 +89,6 @@
             grid-template-columns: 1fr 8fr 1fr;
             padding: 0;
             background-color: var(--primary-color);
-            border-bottom: solid thin var(--accent-color);
         }
         #main-logo {
             height: auto;
@@ -112,3 +173,45 @@
             height: auto;
             margin: 0 1rem;
         }
+
+/*INDEX STYLE*/
+    /*Hero*/
+        .index.hero {
+            place-items: center;
+        }
+        .index.call-to-action {
+            width: 90%;
+            border: 1.5px solid var(--ligth-secondary);
+            border-radius: 5px;
+            box-sizing: border-box;
+            padding: 1rem;
+            margin: 0 auto 2rem;
+        }
+            .index.call-to-action img {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            .index.call-to-action h2 {
+                margin: 0 auto;
+                width: 100%;
+                padding: 1rem 0.5rem;
+                background-color: var(--secondary-color);
+            }
+
+            .index.call-to-action p {
+                margin: 0 auto;
+                padding: 0 1.5rem 1rem;
+                background-color: var(--secondary-color);
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            .index.call-to-action .generic-button {
+                margin: 1.5rem auto 0;
+                width: 60%;
+            }
+        

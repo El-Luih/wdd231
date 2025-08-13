@@ -1,0 +1,287 @@
+[
+  {
+    "event-name": "Heritage Arms Auction",
+    "event-place": "Grand Hall Auditorium",
+    "address": "1234 Maple Street, Springfield, IL, USA",
+    "date": "2025-10-12T09:00:00Z",
+    "geo": { "latitude": 39.7817, "longitude": -89.6501 },
+    "weapons": [
+      { "weapon name": "Ulfberht Viking Battle Axe", "weapon antiquity": "1500 BC", "weapon type": "axe" },
+      { "weapon name": "Muromachi Period Katana", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "English War Longbow", "weapon antiquity": "1200 BC", "weapon type": "bow" },
+      { "weapon name": "Venetian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Guards Halberd", "weapon antiquity": "1400 BC", "weapon type": "halberd" },
+      { "weapon name": "Gothic Iron Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Norman Kite Shield", "weapon antiquity": "1300 BC", "weapon type": "shield" },
+      { "weapon name": "Thracian Javelin Spear", "weapon antiquity": "1500 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Gladius Imperial Sword", "weapon antiquity": "1000 BC", "weapon type": "sword" },
+      { "weapon name": "Persian Shamshir Saber", "weapon antiquity": "1200 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Antique Arms Expo",
+    "event-place": "Liberty Convention Center",
+    "address": "5678 Oak Avenue, Richmond, VA, USA",
+    "date": "2025-11-20T13:00:00Z",
+    "geo": { "latitude": 37.5407, "longitude": -77.4360 },
+    "weapons": [
+      { "weapon name": "Bronze Age Battle Axe", "weapon antiquity": "1800 BC", "weapon type": "axe" },
+      { "weapon name": "Edo Era Samurai Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Yew English Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Crossbow of Milan", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Lucerne Swiss Halberd", "weapon antiquity": "1600 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked War Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Viking Round Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Hoplite Spear", "weapon antiquity": "1500 BC", "weapon type": "spear" },
+      { "weapon name": "Norman Arming Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Moorish Scimitar Saber", "weapon antiquity": "1300 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Historic Weaponry Auction",
+    "event-place": "The Coliseum Theater",
+    "address": "9012 Elm Street, Boston, MA, USA",
+    "date": "2026-01-15T10:30:00Z",
+    "geo": { "latitude": 42.3601, "longitude": -71.0589 },
+    "weapons": [
+      { "weapon name": "Celtic Iron Axe", "weapon antiquity": "1700 BC", "weapon type": "axe" },
+      { "weapon name": "Tokugawa Shogunate Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Composite Recurve Bow", "weapon antiquity": "1600 BC", "weapon type": "bow" },
+      { "weapon name": "Medieval Heavy Crossbow", "weapon antiquity": "1400 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Pike Halberd", "weapon antiquity": "1300 BC", "weapon type": "halberd" },
+      { "weapon name": "Flanged War Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Heater Shield", "weapon antiquity": "1600 BC", "weapon type": "shield" },
+      { "weapon name": "Roman Pilum Spear", "weapon antiquity": "1200 BC", "weapon type": "spear" },
+      { "weapon name": "Imperial Gladius Sword", "weapon antiquity": "1100 BC", "weapon type": "sword" },
+      { "weapon name": "Persian Kilij Saber", "weapon antiquity": "1300 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Legacy Arms Sale",
+    "event-place": "Capitol Auction Hall",
+    "address": "3456 Pine Street, Denver, CO, USA",
+    "date": "2025-12-05T14:00:00Z",
+    "geo": { "latitude": 39.7392, "longitude": -104.9903 },
+    "weapons": [
+      { "weapon name": "Viking Bearded Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Muromachi Katana", "weapon antiquity": "1700 BC", "weapon type": "katana" },
+      { "weapon name": "English War Bow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Venetian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "German Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked Mace", "weapon antiquity": "1600 BC", "weapon type": "mace" },
+      { "weapon name": "Round Viking Shield", "weapon antiquity": "1500 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Dory Spear", "weapon antiquity": "1400 BC", "weapon type": "spear" },
+      { "weapon name": "Norman Sword", "weapon antiquity": "1300 BC", "weapon type": "sword" },
+      { "weapon name": "Arabian Scimitar", "weapon antiquity": "1200 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "The Ancient Arms Auction",
+    "event-place": "Downtown Auction Arena",
+    "address": "7890 Birch Road, Seattle, WA, USA",
+    "date": "2026-02-18T11:00:00Z",
+    "geo": { "latitude": 47.6062, "longitude": -122.3321 },
+    "weapons": [
+      { "weapon name": "Bronze Battle Axe", "weapon antiquity": "1800 BC", "weapon type": "axe" },
+      { "weapon name": "Shogunate Era Katana", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "Yew Composite Bow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Crossbow of Milan", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Iron Spiked Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Viking Round Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Sarissa Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Gladius", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Moorish Scimitar", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Old World Weaponry Auction",
+    "event-place": "Heritage Convention Center",
+    "address": "2468 Cedar Lane, Philadelphia, PA, USA",
+    "date": "2026-03-10T15:30:00Z",
+    "geo": { "latitude": 39.9526, "longitude": -75.1652 },
+    "weapons": [
+      { "weapon name": "Stone Age Axe", "weapon antiquity": "1800 BC", "weapon type": "axe" },
+      { "weapon name": "Feudal Katana", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "English Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Italian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Medieval Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Round Shield", "weapon antiquity": "1600 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Spear", "weapon antiquity": "1400 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Gladius", "weapon antiquity": "1300 BC", "weapon type": "sword" },
+      { "weapon name": "Persian Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Medieval Arms Auction",
+    "event-place": "King's Court Auditorium",
+    "address": "1357 Royal Street, Charleston, SC, USA",
+    "date": "2026-04-05T12:00:00Z",
+    "geo": { "latitude": 32.7765, "longitude": -79.9311 },
+    "weapons": [
+      { "weapon name": "Berserker Battle Axe", "weapon antiquity": "1700 BC", "weapon type": "axe" },
+      { "weapon name": "Samurai Katana", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "English Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Italian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Iron War Mace", "weapon antiquity": "1600 BC", "weapon type": "mace" },
+      { "weapon name": "Round Heater Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Norman Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Persian Scimitar", "weapon antiquity": "1100 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Ancient Weaponry Showcase",
+    "event-place": "Empire Auction Hall",
+    "address": "8642 Market Street, New York, NY, USA",
+    "date": "2026-05-20T16:00:00Z",
+    "geo": { "latitude": 40.7128, "longitude": -74.0060 },
+    "weapons": [
+      { "weapon name": "Viking Bearded Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Feudal Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Longbow of Ash", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Crossbow of Milan", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Halberd of Zurich", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Mace of Ironwood", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Shield of the Normans", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Spear of Alexander", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Sword of Caesar", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Scimitar of the Caliphate", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Collectors’ Arms Auction",
+    "event-place": "Historic Theater",
+    "address": "3210 Broadway, Nashville, TN, USA",
+    "date": "2026-06-15T14:30:00Z",
+    "geo": { "latitude": 36.1627, "longitude": -86.7816 },
+    "weapons": [
+      { "weapon name": "Double-headed Battle Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Katana of the Shogun", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Longbow of the English Yeomen", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Heavy Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Halberd of the Swiss Guard", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Shield of the Teutonic Order", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Spear of the Hoplites", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Sword of the Crusaders", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Scimitar of the Saracens", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Epoch Arms Auction",
+    "event-place": "Old Town Hall",
+    "address": "6789 Park Avenue, Austin, TX, USA",
+    "date": "2026-07-10T13:00:00Z",
+    "geo": { "latitude": 30.2672, "longitude": -97.7431 },
+    "weapons": [
+      { "weapon name": "Stone Axe of the Ancients", "weapon antiquity": "1800 BC", "weapon type": "axe" },
+      { "weapon name": "Feudal Katana", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "Longbow of the Forest", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Crossbow of the Knights", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Halberd of the Landsknecht", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Mace of the Warlord", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Shield of the Vanguard", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Spear of the Phalanx", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Sword of the Legionnaire", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Scimitar of the Desert Raiders", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Sovereign Arms Auction",
+    "event-place": "Monumental Hall",
+    "address": "4321 Washington Blvd, Atlanta, GA, USA",
+    "date": "2026-08-22T10:00:00Z",
+    "geo": { "latitude": 33.7490, "longitude": -84.3880 },
+    "weapons": [
+      { "weapon name": "Frankish Battle Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Kamakura Era Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "English Yew Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Arbalest Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Pike Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Ceremonial War Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Heater Style Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Thracian Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Gladius Hispaniensis Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Ottoman Kilij Saber", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Iron Legacy Auction",
+    "event-place": "Heritage Pavilion",
+    "address": "8765 Liberty Drive, Portland, OR, USA",
+    "date": "2026-09-18T14:00:00Z",
+    "geo": { "latitude": 45.5122, "longitude": -122.6587 },
+    "weapons": [
+      { "weapon name": "Teutonic War Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Edo Period Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Medieval Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Genoese Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Mercenary Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked Flanged Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Roman Scutum Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Dorian Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Norman Longsword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Mamluk Scimitar", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Timeless Arms Auction",
+    "event-place": "Grand Central Hall",
+    "address": "2345 Elmwood Ave, Cleveland, OH, USA",
+    "date": "2026-10-30T11:30:00Z",
+    "geo": { "latitude": 41.4993, "longitude": -81.6944 },
+    "weapons": [
+      { "weapon name": "Viking Bearded Axe", "weapon antiquity": "1600 BC", "weapon type": "axe" },
+      { "weapon name": "Katana of the Edo Shogunate", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Longbow of the Yeoman", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Italian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Halberd of the Landsknecht", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked War Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Norman Round Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Phalanx Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Gladius Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Persian Shamshir Saber", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Old World Arms Auction",
+    "event-place": "Castleview Auditorium",
+    "address": "9876 Castle Street, San Francisco, CA, USA",
+    "date": "2026-11-25T10:00:00Z",
+    "geo": { "latitude": 37.7749, "longitude": -122.4194 },
+    "weapons": [
+      { "weapon name": "Bronze Age Axe", "weapon antiquity": "1800 BC", "weapon type": "axe" },
+      { "weapon name": "Katana of the Samurai Era", "weapon antiquity": "1600 BC", "weapon type": "katana" },
+      { "weapon name": "English Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Milanese Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Halberd of the Swiss Guards", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Flanged Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Heater Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Greek Hoplite Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Imperial Sword", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Ottoman Kilij", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  },
+  {
+    "event-name": "Masterpieces of Arms Auction",
+    "event-place": "Renaissance Hall",
+    "address": "5432 King Street, Chicago, IL, USA",
+    "date": "2026-12-12T13:00:00Z",
+    "geo": { "latitude": 41.8781, "longitude": -87.6298 },
+    "weapons": [
+      { "weapon name": "Celtic Bronze Axe", "weapon antiquity": "1700 BC", "weapon type": "axe" },
+      { "weapon name": "Feudal Katana", "weapon antiquity": "1500 BC", "weapon type": "katana" },
+      { "weapon name": "Yew Longbow", "weapon antiquity": "1400 BC", "weapon type": "bow" },
+      { "weapon name": "Italian Crossbow", "weapon antiquity": "1300 BC", "weapon type": "crossbow" },
+      { "weapon name": "Swiss Halberd", "weapon antiquity": "1500 BC", "weapon type": "halberd" },
+      { "weapon name": "Spiked Iron Mace", "weapon antiquity": "1700 BC", "weapon type": "mace" },
+      { "weapon name": "Norman Heater Shield", "weapon antiquity": "1400 BC", "weapon type": "shield" },
+      { "weapon name": "Phalanx Spear", "weapon antiquity": "1300 BC", "weapon type": "spear" },
+      { "weapon name": "Roman Gladius", "weapon antiquity": "1200 BC", "weapon type": "sword" },
+      { "weapon name": "Moorish Scimitar", "weapon antiquity": "1400 BC", "weapon type": "sword" }
+    ]
+  }
+]
