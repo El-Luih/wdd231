@@ -38,8 +38,8 @@
                 margin-right: 0.5rem;
             }
             .drop-down ul {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+                display: flex;
+                flex-direction: row;
                 place-items: center;
                 height: 100%;
             }
