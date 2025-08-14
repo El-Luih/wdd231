@@ -246,6 +246,7 @@ footer img {
     height: auto;
     margin: 0 1rem;
 }
+
 .video-demo {
     text-decoration: none;
     color: var(--third-color);
@@ -253,7 +254,6 @@ footer img {
     padding: 0.3rem;
     border: thin solid var(--third-color);
 }
-/*Adding a comment because, for some reason, this video-demo rule is not applying in GitHub pages*/
 .video-demo:hover {
     color: var(--primary-color);
     background-color: var(--third-color);
