@@ -50,15 +50,10 @@ h1 {
     font-family: var(--primary-font);
     width: 80%;
     margin: 0 auto;
-}
-.flavor.lower {
     margin-top: 0.5rem;
     border-top: thin solid var(--accent-color);
 }
-.flavor.upper {
-    border-bottom: var(--accent-color);
-    margin-bottom: 0.5rem;
-}
+
 
 .generic-button, .buttons-bar .sorting-button {
     display: block;
@@ -119,7 +114,6 @@ h1 {
 }
 .auction-card .open { color: var(--open-color); font-weight: 900; }
 .auction-card .closed { color: var(--closed-color); font-weight: 900; }
-#auction-info .content-box { margin-bottom: 0; }
 
 #auction-map {
     width: 90%;
@@ -253,40 +247,8 @@ footer img {
     margin: 0 1rem;
 }
 
-/* INDEX STYLE */
-.index .generic-button {
-    margin: 1.5rem auto 0;
-    width: 50%;
-}
-.index.hero { place-items: center; }
-.index.call-to-action img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.index.call-to-action h2 {
-    margin: 0 auto;
-    width: 100%;
-    padding: 1rem 0.5rem;
-    background-color: var(--secondary-color);
-}
-.index.call-to-action p {
-    margin: 0 auto;
-    padding: 0 1.5rem 1rem;
-    background-color: var(--secondary-color);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-#auction-info h2, #auction-info h3 { margin-bottom: 1rem; }
-#auction-info h3 .flavor { font-size: 1rem; }
-#auction-display.index { display: flex; flex-direction: column; }
-#auction-display.index article { flex-grow: 1; margin-bottom: 0.5rem; }
-#auction-map.index { align-self: stretch; }
-
 /* VISIT POPUP */
-.visit-popup {
+#visitPopup {
     position: fixed;
     top: 5rem;
     left: 50%;
@@ -307,11 +269,11 @@ footer img {
     text-align: center;
     font-family: var(--secondary-font);
 }
-.visit-popup.hide {
+#visitPopup.hide {
     opacity: 0;
     visibility: hidden;
 }
-.visit-popup button {
+#visitPopup button {
     background: transparent;
     border: none;
     color: var(--third-color);
