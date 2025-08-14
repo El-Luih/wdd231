@@ -149,15 +149,15 @@ h1 {
     color: var(--darker-closed);
     font-family: var(--secondary-font);
 }
-.auction-modal .close-button {
+.close-button {
     background-color: var(--primary-color);
     color: var(--third-color);
-    border-style: solid;
+    border: none;
     font-weight: bold;
     position: absolute;
     top: 0.1rem;
     right: 0.15rem;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     border-radius: 2px;
 }
 .auction-modal .close-button:hover {
@@ -245,6 +245,19 @@ footer img {
     width: 40px;
     height: auto;
     margin: 0 1rem;
+}
+.video-demo {
+    text-decoration: none;
+    color: var(--third-color);
+    font-family: var(--secondary-font);
+    padding: 0.3rem;
+    border: thin solid var(--third-color);
+}
+
+.video-demo:hover {
+    color: var(--primary-color);
+    background-color: var(--third-color);
+    border-color: var(--accent-color);
 }
 
 /* VISIT POPUP */
@@ -444,5 +457,4 @@ footer img {
     }
     #thanks-message .confirmation-info p strong { justify-self: end; }
     #thanks-message .confirmation-info p span { text-align: start; }
-    .timestamp-display { font-size: 0.95rem; }
 }
