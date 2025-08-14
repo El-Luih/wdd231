@@ -390,10 +390,6 @@ footer img {
     width: 90%;
     margin: 5rem auto;
 }
-#thanks-message h1 {
-    text-align: center;
-    font-size: 2.5rem;
-}
 #thanks-message .confirmation-info {
     border: thin var(--third-color) solid;
     border-radius: 5px;
