@@ -32,6 +32,86 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="services grid-2" id="contact-info-section">
+            <article class="services contact-info content-box" id="ci-curators">
+                <img class="image-content" src="images/curator.webp" alt="Curator services illustration.">
+                <h2 class="title-content">
+                    Curator Services
+                    <span class="flavor lower">Connect with our curators to arrange appraisals, consultations, or specialized services.</span>
+                </h2>
+                <address>
+                    <p><strong>Gallery Name:</strong> <span>The Curator’s House</span></p>
+                    <p><strong>Address:</strong> <span>789 Legacy Ave, Las Vegas, NV 89101</span></p>
+                    <p><strong>Phone:</strong> <a href="tel:+17024567890">+1 (702) 456-7890</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:curator@example.com">curator@example.com</a></p>
+                </address>
+            </article>
+            <article class="services contact-info content-box" id="ci-acquisition">
+                <img class="image-content" src="images/aqcuisition.webp" alt="An example display of our collection.">
+                <h2 class="title-content">
+                    Acquisition Assistance
+                    <span class="flavor lower">Receive expert guidance in sourcing and securing rare, high-value pieces for your collection.</span>
+                </h2>
+                <address>
+                    <p><strong>Gallery Name:</strong> <span>The Collector’s House</span></p>
+                    <p><strong>Address:</strong> <span>1234 Heritage Ave, Las Vegas, NV 89101</span></p>
+                    <p><strong>Phone:</strong> <a href="tel:+17025551234">+1 (702) 555-1234</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:services@collectorshouse.com">services@collectorshouse.com</a></p>
+                </address>
+            </article>
+        </div>
+        <form action="thanks.html" method="get" id="services-item-form">
+            <h2 id="form-header">
+                Show Your Collection
+                <span class="flavor lower">Provide your item details and contact information to arrange a private consultation.</span>
+            </h2>
+            <label class="field-name">
+                <span>First Name</span>
+                <input type="text" name="fname" id="first-name" autocomplete="given-name" required>
+            </label>
+            <label class="field-name">
+                <span>Last Name</span>
+                <input type="text" name="lname" id="last-name" autocomplete="family-name" required>
+            </label>
+            <label class="field-name">
+                <span>Email Address</span>
+                <input type="email" name="email" id="email" autocomplete="email" placeholder="email@example.com" required>
+            </label>
+            <label class="field-name">
+                <span>Mobile Number</span>
+                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" required>
+            </label>
+            <label class="field-name">
+                <span>Weapon Type</span>
+                <select name="weapon-type" id="weapon-type" required>
+                    <option value="" disabled selected>--</option>
+                    <option value="Axe">Axe</option>
+                    <option value="Bow">Bow</option>
+                    <option value="Crossbow">Crossbow</option>
+                    <option value="Halberd">Halberd</option>
+                    <option value="Katana">Katana</option>
+                    <option value="Mace">Mace</option>
+                    <option value="Shield">Shield</option>
+                    <option value="Spear">Spear</option>
+                    <option value="Sword">Sword</option>
+                </select>
+            </label>
+            <label class="field-name">
+                <span>Weapon Antiquity</span>
+                <select name="antiquity" id="antiquity" required>
+                    <option value="" disabled selected>--</option>
+                    <option value="1800">~1800 A.C</option>
+                    <option value="1700">~1700 A.C</option>
+                    <option value="1600">~1600 A.C</option>
+                    <option value="1500">~1500 A.C</option>
+                    <option value="1400">>1400 A.C</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+            <input type="submit" value="Request Meeting" id="submit-button" class="generic-button">
+        </form>
+    </main>
     <footer>
         <section id="contact-info">
             <p>

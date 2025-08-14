@@ -14,6 +14,11 @@
         .flavor {
             font-size: 1.5rem;
         }
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            opacity: 0.4;
+        }
 
 
         /*Header*/
@@ -91,9 +96,6 @@
                 grid-row: 1 / 3;
             }
             .index.hero-image img {
-                width: 100%;
-                height: auto;
-                opacity: 0.3;
                 z-index: -1;
             }
             .index.hero h1 {
@@ -107,7 +109,7 @@
                 place-self: center;
                 background-color: var(--secondary-color);
                 display: grid;
-                grid-template-rows: minmax(1fr, 5rem) auto;
+                grid-template-rows: 5rem auto;
                 max-height: 350px;
                 min-height: 250px;
             }
@@ -136,9 +138,6 @@
             #auction-info h3 .flavor, #auction-info h2 .flavor { 
                 font-size: 1.3rem;
             }
-            #auction-map {
-            height: auto;
-            }
         /*Custome Message Popup*/
             .visit-popup {
                 font-size: 1.5rem;
@@ -149,9 +148,36 @@
                 width: 30px;
                 height: 30px;
             }
+    
+    /*AUCTIONS STYLING*/
+        /*Auctions display*/
+            #auction-display.auctions {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .auctions #auction-map {
+                height: 400px;
+            }
 }
 
 /*VERY LARGE SPECIAL CASES*/
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1000px) {
+    /*AUCTIONS STYLING*/
+        /*Auctions display*/
+            #auction-display.auctions { 
+                gap: 1rem;
+            }
+    /*SERVICES STYLING*/
+        /*Contact Info*/
+            #contact-info-section address p {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                gap: 1rem;
+            }
+            #contact-info-section address strong {
+            justify-self: end;
+            }
+            #contact-info-section address a,
+            #contact-info-section address span {
+                justify-self: start;
+            }
 }
