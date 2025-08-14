@@ -1,183 +1,52 @@
 @media screen and (min-width: 800px) {
-    /*GENERAL STYLING*/
-        body {
-            font-size: 1.1rem;
-        }
-        .grid-2 { 
-            grid-template-columns: 1fr 1fr;
-        }
+    body { font-size: 1.1rem; }
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .grid-2 .grid-title { grid-column: span 2; }
+    .flavor { font-size: 1.5rem; }
+    .hero-image img,
+    .index.hero-image img { width: 100%; height: auto; opacity: 0.4; z-index: -1; }
 
-        .grid-2 .grid-title {
-            grid-column: span 2;
-        }
+    header { grid-template-columns: minmax(30px, 65px) 1fr 1fr; }
+    #main-logo { max-width: 100%; padding: 0 0 0 0.5rem; place-self: center; }
+    #main-hamburger { display: none; }
+    .drop-down { display: block; margin-right: 0.5rem; }
+    .drop-down ul { display: flex; flex-direction: row; place-items: center; height: 100%; }
+    .drop-down ul a,
+    .drop-down ul li { width: 100%; box-sizing: border-box; text-align: center; font-size: 1.2rem; background: none; }
+    .drop-down a:hover { border-radius: 6px; border: 0.5px solid var(--third-color); }
+    .drop-down a.current { text-decoration: underline 0.1rem; text-underline-offset: 6px; }
+    .drop-down a.current::after { content: none; }
+    #main-name-banner { max-width: 400px; }
 
-        .flavor {
-            font-size: 1.5rem;
-        }
-        .hero-image img {
-            width: 100%;
-            height: auto;
-            opacity: 0.4;
-        }
+    footer { grid-template-columns: 1fr 1fr 1fr; text-align: start; }
 
+    .index .generic-button { min-width: 150px; }
+    .index.hero { grid-template-rows: auto 1fr; gap: 0 20%; }
+    .index.hero h1 { margin: 2rem auto; grid-column: 1 / 3; grid-row: 1 / 2; z-index: 1; }
+    .index.hero-image { grid-column: 1 / 3; grid-row: 1 / 3; }
+    .index.hero .content-box { z-index: 1; place-self: center; background-color: var(--secondary-color); display: grid; grid-template-rows: 5rem auto; max-height: 350px; min-height: 250px; }
+    .index.hero #cta-selling { grid-column: 1 / 2; grid-row: 2 / 3; }
+    .index.hero #cta-services { grid-column: 2 / 3; grid-row: 2 / 3; }
+    .index.call-to-action img { display: none; }
 
-        /*Header*/
-            header {
-                grid-template-columns: minmax(30px, 65px) 1fr 1fr;
-            }
-            #main-logo {
-                max-width: 100%;
-                padding: 0 0 0 0.5rem;
-                place-self: center;
-            }
-            #main-hamburger {
-                display: none;
-            }
-            .drop-down {
-                display: block;
-                margin-right: 0.5rem;
-            }
-            .drop-down ul {
-                display: flex;
-                flex-direction: row;
-                place-items: center;
-                height: 100%;
-            }
+    #auction-info { grid-template-rows: auto 1fr; }
+    #auction-info h2 { margin: 6rem auto 3rem; }
+    #auction-info h3 .flavor,
+    #auction-info h2 .flavor { font-size: 1.3rem; }
 
-            .drop-down ul a {
-                background: none;
-                width: 100%;
-                box-sizing: border-box;
-                text-align: center;
-                font-size: 1.2rem;
-            }
+    .visit-popup,
+    .visit-popup button { font-size: 1.5rem; }
+    .visit-popup { padding: 1rem 2.5rem 1rem 1rem; }
+    .visit-popup button { width: 30px; height: 30px; }
 
-            .drop-down a:hover {
-                border-radius: 6px;
-                border: 0.5px solid var(--third-color);
-            }
-
-            .drop-down ul li {
-                width: 100%;
-            }
-
-            .drop-down a.current::after {
-                content: none;
-            }
-
-            .drop-down a.current {
-                text-decoration: underline 0.1rem;
-                text-underline-offset: 6px;
-            }
-            #main-name-banner {
-                max-width: 400px;
-            }
-
-        /*Footer*/
-            footer {
-                grid-template-columns: 1fr 1fr 1fr;
-                text-align: start;
-            }
-
-    /*INDEX STYLING*/
-        .index .generic-button {
-            min-width: 150px;
-        }
-        /*Hero*/
-            .index.hero {
-                grid-template-rows: auto 1fr;
-                gap: 0 20%;
-            }
-            .index.hero h1 {
-                margin: 2rem auto;
-            }
-            .index.hero-image {
-                grid-column: 1 / 3;
-                grid-row: 1 / 3;
-            }
-            .index.hero-image img {
-                z-index: -1;
-            }
-            .index.hero h1 {
-                grid-column: 1 / 3;
-                grid-row: 1 / 2;
-                z-index: 1;
-            }
-
-            .index.hero .content-box {
-                z-index: 1;
-                place-self: center;
-                background-color: var(--secondary-color);
-                display: grid;
-                grid-template-rows: 5rem auto;
-                max-height: 350px;
-                min-height: 250px;
-            }
-
-            .index.hero #cta-selling {
-                grid-column: 1 / 2;
-                grid-row: 2 / 3;
-                
-            }
-            .index.hero #cta-services {
-                grid-column: 2 / 3;
-                grid-row: 2 / 3;
-            }
-
-            .index.call-to-action img{
-                display: none;
-            }
-        
-        /*Auctions Info*/
-            #auction-info {
-                grid-template-rows: auto 1fr;
-            }
-            #auction-info h2 {
-                margin: 6rem auto 3rem;
-            }
-            #auction-info h3 .flavor, #auction-info h2 .flavor { 
-                font-size: 1.3rem;
-            }
-        /*Custome Message Popup*/
-            .visit-popup {
-                font-size: 1.5rem;
-                padding: 1rem 2.5rem 1rem 1rem;
-            }
-            .visit-popup button {
-                font-size: 1.5rem;
-                width: 30px;
-                height: 30px;
-            }
-    
-    /*AUCTIONS STYLING*/
-        /*Auctions display*/
-            #auction-display.auctions {
-                grid-template-columns: 1fr 1fr 1fr;
-            }
-            .auctions #auction-map {
-                height: 400px;
-            }
+    #auction-display.auctions { grid-template-columns: 1fr 1fr 1fr; }
+    .auctions #auction-map { height: 400px; }
 }
 
-/*VERY LARGE SPECIAL CASES*/
 @media screen and (min-width: 1000px) {
-    /*AUCTIONS STYLING*/
-        /*Auctions display*/
-            #auction-display.auctions { 
-                gap: 1rem;
-            }
-    /*SERVICES STYLING*/
-        /*Contact Info*/
-            #contact-info-section address p {
-                display: grid;
-                grid-template-columns: 1fr 2fr;
-                gap: 1rem;
-            }
-            #contact-info-section address strong {
-            justify-self: end;
-            }
-            #contact-info-section address a,
-            #contact-info-section address span {
-                justify-self: start;
-            }
+    #auction-display.auctions { gap: 1rem; }
+    #contact-info-section address p { display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; }
+    #contact-info-section address strong { justify-self: end; }
+    #contact-info-section address a,
+    #contact-info-section address span { justify-self: start; }
 }
